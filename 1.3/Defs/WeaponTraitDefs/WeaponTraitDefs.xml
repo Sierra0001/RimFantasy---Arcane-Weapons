@@ -10,7 +10,7 @@
 			<li Class="RimFantasy.WeaponEffect_SetOnFire">
 				<effectChance>0.6</effectChance>
 				<effectDamage>Burn</effectDamage>
-				<baseDamageValue>30</baseDamageValue>
+				<baseDamageValue>5</baseDamageValue>
 				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
 				<setsTargetOnFire>true</setsTargetOnFire>
 				<fireSize>0.6~0.9</fireSize>
@@ -29,13 +29,13 @@
 			<li Class="RimFantasy.WeaponEffect">
 				<effectChance>0.6</effectChance>
 				<effectDamage>Burn</effectDamage>
-				<baseDamageValue>30</baseDamageValue>
+				<baseDamageValue>5</baseDamageValue>
 				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
 			</li>
 			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
 				<effectChance>1</effectChance>
 				<hediffDef>Heatstroke</hediffDef>
-				<severityOffset>0.3</severityOffset>
+				<severityOffset>0.1</severityOffset>
 			</li>
 		</weaponEffects>
 		<commonality>1</commonality>
@@ -53,6 +53,7 @@
 				<hediffDef>RF_CooldownIncrease</hediffDef>
 				<partToApply>Brain</partToApply><!-- can be omited -->
 				<severityOffset>1</severityOffset><!-- can be omited -->
+				<baseDamageValue>5</baseDamageValue>
 			</li>
 		</weaponEffects>
 		<commonality>1</commonality>
@@ -83,7 +84,7 @@
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Heal">
 				<effectChance>0.6</effectChance>
-				<hpToHeal>10~100</hpToHeal>
+				<hpToHeal>10~15</hpToHeal>
 			</li>
 		</weaponEffects>
 		<commonality>1</commonality>
@@ -114,7 +115,7 @@
 			<li Class="RimFantasy.WeaponEffect_Slash">
 				<effectChance>0.6</effectChance>
 				<effectDamage></effectDamage>
-				<baseDamageValue>30</baseDamageValue>
+				<baseDamageValue>5</baseDamageValue>
 				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
 				<amountOfEnemies>2~3</amountOfEnemies>
 				<maxDistance>1.5</maxDistance>
@@ -134,7 +135,7 @@
 			<li Class="RimFantasy.WeaponEffect">
 				<effectChance>0.6</effectChance>
 				<effectDamage>Burn</effectDamage>
-				<baseDamageValue>30</baseDamageValue>
+				<baseDamageValue>5</baseDamageValue>
 				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
 			</li>
 		</weaponEffects>
@@ -151,13 +152,13 @@
 			<li Class="RimFantasy.WeaponEffect">
 				<effectChance>0.6</effectChance>
 				<effectDamage>Frostbite</effectDamage>
-				<baseDamageValue>30</baseDamageValue>
+				<baseDamageValue>5</baseDamageValue>
 				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
 			</li>
 			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
 				<effectChance>0.8</effectChance>
 				<hediffDef>Hypothermia</hediffDef>
-				<severityOffset>0.3</severityOffset>
+				<severityOffset>0.1</severityOffset>
 			</li>
 		</weaponEffects>
 		<commonality>1</commonality>
@@ -173,12 +174,13 @@
 			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
 				<effectChance>0.8</effectChance>
 				<hediffDef>ChemicalBurn</hediffDef>
+				<baseDamageValue>5</baseDamageValue>
 				<severityOffset>0.3</severityOffset>
 			</li>
 			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
 				<effectChance>0.8</effectChance>
 				<hediffDef>ToxicBuildup</hediffDef>
-				<severityOffset>0.3</severityOffset>
+				<severityOffset>0.1</severityOffset>
 			</li>
 		</weaponEffects>
 		<commonality>1</commonality>

@@ -17,6 +17,8 @@
 				<biocodeOnEquip>true</biocodeOnEquip>
 				<weaponTraitsPool>
 					<li>RF_Blaze</li>
+					<li>RF_Scorch</li>
+					<li>RF_Slow</li>
 				</weaponTraitsPool>
 			</li>
 			<li Class="CompProperties_GeneratedName">

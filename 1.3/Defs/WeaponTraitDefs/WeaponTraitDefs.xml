@@ -18,4 +18,35 @@
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
 
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Scorch</defName>
+		<label>scorch</label>
+		<description>PLACEHOLDER</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<workerSettings Class="RimFantasy.WeaponEffect">
+			<effectChance>0.6</effectChance>
+			<effectDamage>Burn</effectDamage>
+			<baseDamageValue>30</baseDamageValue>
+			<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
+		</workerSettings>
+		<commonality>1</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+	
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Slow</defName>
+		<label>slow</label>
+		<description>PLACEHOLDER</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<workerSettings Class="RimFantasy.WeaponEffect_ApplyHediff">
+			<effectChance>0.6</effectChance>
+			<hediffDef>RF_CooldownIncrease</hediffDef>
+			<partToApply>Brain</partToApply> <!-- can be omited -->
+			<initialSeverity>1</initialSeverity> <!-- can be omited -->
+		</workerSettings>
+		<commonality>1</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+	
+
 </Defs>

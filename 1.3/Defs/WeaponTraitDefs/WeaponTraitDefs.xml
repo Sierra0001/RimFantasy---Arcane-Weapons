@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Blaze</defName>
+		<label>blaze</label>
+		<description>PLACEHOLDER</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<workerSettings Class="RimFantasy.WeaponEffect_SetOnFire">
+			<effectChance>0.6</effectChance>
+			<effectDamage>Burn</effectDamage>
+			<baseDamageValue>30</baseDamageValue>
+			<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
+			<setsTargetOnFire>true</setsTargetOnFire>
+			<fireSize>0.6~0.9</fireSize>
+		</workerSettings>
+		<commonality>1</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+</Defs>

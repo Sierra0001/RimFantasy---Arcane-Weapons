@@ -34,13 +34,13 @@
       <Steel>250</Steel>
     </costList>
     <comps>
-      <li Class="CompProperties_Explosive">
+      <li Class="RimFantasy.CompProperties_ExplosiveStuffed">
         <wickTicks>60</wickTicks>
         <explosiveRadius>2</explosiveRadius>
-        <explosiveDamageType>RF_DiamondFlame_SmallSquare</explosiveDamageType>
+        <explosiveDamageTypeBaseDefName>RF_Flame_SmallSquare</explosiveDamageTypeBaseDefName>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
-        <postExplosionSpawnThingDef>RF_RubbleOnyxShards</postExplosionSpawnThingDef>
+        <postExplosionSpawnBaseDefName>RF_RubbleShards</postExplosionSpawnBaseDefName>
         <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
       </li>
       <li Class="RimFantasy.CompProperties_GlowerStuffable">

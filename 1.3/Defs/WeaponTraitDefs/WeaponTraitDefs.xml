@@ -6,14 +6,16 @@
 		<label>blaze</label>
 		<description>PLACEHOLDER</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
-		<workerSettings Class="RimFantasy.WeaponEffect_SetOnFire">
-			<effectChance>0.6</effectChance>
-			<effectDamage>Burn</effectDamage>
-			<baseDamageValue>30</baseDamageValue>
-			<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
-			<setsTargetOnFire>true</setsTargetOnFire>
-			<fireSize>0.6~0.9</fireSize>
-		</workerSettings>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_SetOnFire">
+				<effectChance>0.6</effectChance>
+				<effectDamage>Burn</effectDamage>
+				<baseDamageValue>30</baseDamageValue>
+				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
+				<setsTargetOnFire>true</setsTargetOnFire>
+				<fireSize>0.6~0.9</fireSize>
+			</li>
+		</weaponEffects>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
@@ -23,12 +25,19 @@
 		<label>scorch</label>
 		<description>PLACEHOLDER</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
-		<workerSettings Class="RimFantasy.WeaponEffect">
-			<effectChance>0.6</effectChance>
-			<effectDamage>Burn</effectDamage>
-			<baseDamageValue>30</baseDamageValue>
-			<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
-		</workerSettings>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect">
+				<effectChance>0.6</effectChance>
+				<effectDamage>Burn</effectDamage>
+				<baseDamageValue>30</baseDamageValue>
+				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
+			</li>
+			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+				<effectChance>1</effectChance>
+				<hediffDef>Heatstroke</hediffDef>
+				<severityOffset>0.3</severityOffset>
+			</li>
+		</weaponEffects>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
@@ -38,12 +47,14 @@
 		<label>slow</label>
 		<description>PLACEHOLDER</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
-		<workerSettings Class="RimFantasy.WeaponEffect_ApplyHediff">
-			<effectChance>0.6</effectChance>
-			<hediffDef>RF_CooldownIncrease</hediffDef>
-			<partToApply>Brain</partToApply> <!-- can be omited -->
-			<initialSeverity>1</initialSeverity> <!-- can be omited -->
-		</workerSettings>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+				<effectChance>0.6</effectChance>
+				<hediffDef>RF_CooldownIncrease</hediffDef>
+				<partToApply>Brain</partToApply><!-- can be omited -->
+				<severityOffset>1</severityOffset><!-- can be omited -->
+			</li>
+		</weaponEffects>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
@@ -53,12 +64,14 @@
 		<label>drain</label>
 		<description>PLACEHOLDER</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
-		<workerSettings Class="RimFantasy.WeaponEffect_ApplyHediff">
-			<effectChance>0.6</effectChance>
-			<hediffDef>RF_CooldownIncrease</hediffDef>
-			<partToApply>Brain</partToApply> <!-- can be omited -->
-			<initialSeverity>1</initialSeverity> <!-- can be omited -->
-		</workerSettings>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+				<effectChance>0.6</effectChance>
+				<hediffDef>RF_CooldownIncrease</hediffDef>
+				<partToApply>Brain</partToApply><!-- can be omited -->
+				<severityOffset>1</severityOffset><!-- can be omited -->
+			</li>
+		</weaponEffects>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
@@ -68,10 +81,107 @@
 		<label>heal</label>
 		<description>PLACEHOLDER</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
-		<workerSettings Class="RimFantasy.WeaponEffect_Heal">
-			<effectChance>0.6</effectChance>
-			<hpToHeal>10~100</hpToHeal>
-		</workerSettings>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_Heal">
+				<effectChance>0.6</effectChance>
+				<hpToHeal>10~100</hpToHeal>
+			</li>
+		</weaponEffects>
+		<commonality>1</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Stun</defName>
+		<label>stun</label>
+		<description>PLACEHOLDER</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_Stun">
+				<effectChance>0.6</effectChance>
+				<stunDuration>10~100</stunDuration>
+			</li>
+		</weaponEffects>
+		<commonality>1</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Slash</defName>
+		<label>slash</label>
+		<description>PLACEHOLDER</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_Slash">
+				<effectChance>0.6</effectChance>
+				<effectDamage>Burn</effectDamage>
+				<baseDamageValue>30</baseDamageValue>
+				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
+				<amountOfEnemies>2~3</amountOfEnemies>
+				<maxDistance>1.5</maxDistance>
+				<baseDamageFactor>0.5</baseDamageFactor>
+			</li>
+		</weaponEffects>
+		<commonality>1</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Magic</defName>
+		<label>magic</label>
+		<description>PLACEHOLDER</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect">
+				<effectChance>0.6</effectChance>
+				<effectDamage>Burn</effectDamage>
+				<baseDamageValue>30</baseDamageValue>
+				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
+			</li>
+		</weaponEffects>
+		<commonality>1</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+	
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Freeze</defName>
+		<label>freeze</label>
+		<description>PLACEHOLDER</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect">
+				<effectChance>0.6</effectChance>
+				<effectDamage>Frostbite</effectDamage>
+				<baseDamageValue>30</baseDamageValue>
+				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
+			</li>
+			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+				<effectChance>1</effectChance>
+				<hediffDef>Hypothermia</hediffDef>
+				<severityOffset>0.3</severityOffset>
+			</li>
+		</weaponEffects>
+		<commonality>1</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+	
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Poison</defName>
+		<label>poison</label>
+		<description>PLACEHOLDER</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+				<effectChance>1</effectChance>
+				<hediffDef>ChemicalBurn</hediffDef>
+				<severityOffset>0.3</severityOffset>
+			</li>
+			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+				<effectChance>1</effectChance>
+				<hediffDef>ToxicBuildup</hediffDef>
+				<severityOffset>0.3</severityOffset>
+			</li>
+		</weaponEffects>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>

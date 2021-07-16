@@ -21,7 +21,7 @@
 					<li>RF_Slow</li>
 				</weaponTraitsPool>
 				<minWeaponTraits>1</minWeaponTraits>
-				<maxWeaponTraits>1</maxWeaponTraits>
+				<maxWeaponTraits>2</maxWeaponTraits>
 			</li>
 			<li Class="CompProperties_GeneratedName">
 				<nameMaker>RF_Namer_ArcaneWeapons</nameMaker>

@@ -9,12 +9,12 @@
 		<workerSettings Class="RimFantasy.WeaponEffect_SetOnFire">
 			<effectChance>0.15</effectChance>
 			<effectDamage>Burn</effectDamage>
-			<baseDamageValue>15</baseDamageValue>
+			<baseDamageValue>10</baseDamageValue>
 			<fleckDefOnTarget>RF_Fleck_BlastRuby_Round</fleckDefOnTarget>
 			<setsTargetOnFire>true</setsTargetOnFire>
 			<fireSize>0.6~0.9</fireSize>
 		</workerSettings>
-		<commonality>1</commonality>
+		<commonality>0.25</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
 
@@ -26,12 +26,12 @@
 		<workerSettings Class="RimFantasy.WeaponEffect_SetOnFire">
 			<effectChance>0.15</effectChance>
 			<effectDamage>Burn</effectDamage>
-			<baseDamageValue>10</baseDamageValue>
+			<baseDamageValue>8</baseDamageValue>
 			<fleckDefOnTarget>RF_Fleck_BlastRuby_Round</fleckDefOnTarget>
 			<setsTargetOnFire>true</setsTargetOnFire>
 			<fireSize>0.4~0.7</fireSize>
 		</workerSettings>
-		<commonality>1</commonality>
+		<commonality>0.5</commonality>
 		<marketValueOffset>400</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>-->
 
@@ -43,10 +43,55 @@
 		<workerSettings Class="RimFantasy.WeaponEffect_SetOnFire">
 			<effectChance>0.15</effectChance>
 			<effectDamage>Burn</effectDamage>
-			<baseDamageValue>5</baseDamageValue>
+			<baseDamageValue>6</baseDamageValue>
 			<fleckDefOnTarget>RF_Fleck_BlastRuby_Round</fleckDefOnTarget>
 			<setsTargetOnFire>true</setsTargetOnFire>
 			<fireSize>0.2~0.5</fireSize>
+		</workerSettings>
+		<commonality>1</commonality>
+		<marketValueOffset>200</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_MajorScorch</defName>
+		<label>major scorch</label>
+		<description>This weapon is charged with major fire magic and could potentially burn enemies it strikes.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<workerSettings Class="RimFantasy.WeaponEffect">
+			<effectChance>0.15</effectChance>
+			<effectDamage>Burn</effectDamage>
+			<baseDamageValue>15</baseDamageValue>
+			<fleckDefOnTarget>RF_Fleck_BlastCarnelian_Round</fleckDefOnTarget>
+		</workerSettings>
+		<commonality>0.25</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Scorch</defName>
+		<label>scorch</label>
+		<description>This weapon is charged with fire magic and could potentially burn enemies it strikes.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<workerSettings Class="RimFantasy.WeaponEffect">
+			<effectChance>0.15</effectChance>
+			<effectDamage>Burn</effectDamage>
+			<baseDamageValue>10</baseDamageValue>
+			<fleckDefOnTarget>RF_Fleck_BlastCarnelian_Round</fleckDefOnTarget>
+		</workerSettings>
+		<commonality>0.5</commonality>
+		<marketValueOffset>400</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_MinorScorch</defName>
+		<label>minor scorch</label>
+		<description>This weapon is charged with minor fire magic and could potentially burn enemies it strikes.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<workerSettings Class="RimFantasy.WeaponEffect">
+			<effectChance>0.15</effectChance>
+			<effectDamage>Burn</effectDamage>
+			<baseDamageValue>5</baseDamageValue>
+			<fleckDefOnTarget>RF_Fleck_BlastCarnelian_Round</fleckDefOnTarget>
 		</workerSettings>
 		<commonality>1</commonality>
 		<marketValueOffset>200</marketValueOffset>

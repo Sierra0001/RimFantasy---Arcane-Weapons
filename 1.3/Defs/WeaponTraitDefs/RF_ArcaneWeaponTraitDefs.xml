@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_MajorBlaze</defName>
+		<label>major blaze</label>
+		<description>This weapon is charged with powerful fire magic and could potentially light enemies it strikes on fire.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<workerSettings Class="RimFantasy.WeaponEffect_SetOnFire">
+			<effectChance>0.15</effectChance>
+			<effectDamage>Burn</effectDamage>
+			<baseDamageValue>15</baseDamageValue>
+			<fleckDefOnTarget>RF_Fleck_BlastRuby_Round</fleckDefOnTarget>
+			<setsTargetOnFire>true</setsTargetOnFire>
+			<fireSize>0.6~0.9</fireSize>
+		</workerSettings>
+		<commonality>1</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Blaze</defName>
+		<label>blaze</label>
+		<description>This weapon is charged with fire magic and could potentially light enemies it strikes on fire.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<workerSettings Class="RimFantasy.WeaponEffect_SetOnFire">
+			<effectChance>0.15</effectChance>
+			<effectDamage>Burn</effectDamage>
+			<baseDamageValue>10</baseDamageValue>
+			<fleckDefOnTarget>RF_Fleck_BlastRuby_Round</fleckDefOnTarget>
+			<setsTargetOnFire>true</setsTargetOnFire>
+			<fireSize>0.4~0.7</fireSize>
+		</workerSettings>
+		<commonality>1</commonality>
+		<marketValueOffset>400</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_MinorBlaze</defName>
+		<label>minor blaze</label>
+		<description>This weapon is charged with minor fire magic and could potentially light enemies it strikes on fire.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<workerSettings Class="RimFantasy.WeaponEffect_SetOnFire">
+			<effectChance>0.15</effectChance>
+			<effectDamage>Burn</effectDamage>
+			<baseDamageValue>5</baseDamageValue>
+			<fleckDefOnTarget>RF_Fleck_BlastRuby_Round</fleckDefOnTarget>
+			<setsTargetOnFire>true</setsTargetOnFire>
+			<fireSize>0.2~0.5</fireSize>
+		</workerSettings>
+		<commonality>1</commonality>
+		<marketValueOffset>200</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+</Defs>

@@ -2,7 +2,7 @@
 <Defs>
 
   <RulePackDef>
-    <defName>RF_NamerWeaponEnchantedWeapon</defName>
+    <defName>RF_Namer_ArcaneWeapons</defName>
     <rulePack>
       <include>
         <li>NamerAnimalUtility</li>

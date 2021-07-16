@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BaseWeapon_EnchantedWeapon">
+  <ThingDef ParentName="BaseWeapon_ArcaneWeapon">
     <defName>RF_MeleeWeapon_GuardianClaymore</defName>
     <label>guardian claymore</label>
     <description>A jewelled claymore infused with magic that enables its users to fight more effectively.
@@ -110,7 +110,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <!--<researchPrerequisite>RF_EnchantedWeapons</researchPrerequisite>-->
+      <!--<researchPrerequisite>RF_ArcaneWeapons</researchPrerequisite>-->
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>

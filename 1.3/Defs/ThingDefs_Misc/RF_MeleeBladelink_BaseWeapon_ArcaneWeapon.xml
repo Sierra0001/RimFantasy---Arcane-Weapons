@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="BaseWeapon_EnchantedWeapon" ParentName="BaseWeapon" Abstract="True">
+  <ThingDef Name="BaseWeapon_ArcaneWeapon" ParentName="BaseWeapon" Abstract="True">
     <techLevel>Medieval</techLevel>
     <tradeNeverStack>true</tradeNeverStack>
     <relicChance>3</relicChance>
@@ -17,13 +17,13 @@
         <biocodeOnEquip>true</biocodeOnEquip>
       </li>
       <li Class="CompProperties_GeneratedName">
-        <nameMaker>RF_NamerWeaponEnchantedWeapon</nameMaker>
+        <nameMaker>RF_Namer_ArcaneWeapons</nameMaker>
       </li>
     </comps>
     <smeltable>true</smeltable>
     <burnableByRecipe>true</burnableByRecipe>
     <thingCategories>
-      <li>RF_EnchantedWeapons</li>
+      <li>RF_ArcaneWeapons</li>
     </thingCategories>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>

@@ -2,8 +2,8 @@
 <Defs>
 
   <ThingCategoryDef>
-    <defName>RF_EnchantedWeapons</defName>
-    <label>enchanted weapons</label>
+    <defName>RF_ArcaneWeapons</defName>
+    <label>arcane weapons</label>
     <parent>Weapons</parent>
   </ThingCategoryDef>
 

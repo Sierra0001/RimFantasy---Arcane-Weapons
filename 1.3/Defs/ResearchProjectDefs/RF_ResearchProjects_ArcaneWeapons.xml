@@ -2,10 +2,10 @@
 <Defs>
 
   <ResearchProjectDef>
-    <defName>RF_EnchantedWeapons</defName>
-    <label>enchanted weapons</label>
+    <defName>RF_ArcaneWeapons</defName>
+    <label>arcane weapons</label>
     <tab>RF_RimFantasy</tab>
-    <description>Infuse rough gemstones with magic to create light.</description>
+    <description>Forge powerful weapons of war with magic infused gemstones.</description>
     <baseCost>750</baseCost>
     <techLevel>Medieval</techLevel>
     <prerequisites>

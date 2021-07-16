@@ -26,6 +26,10 @@
 					<li>RF_Magic</li>
 					<li>RF_Freeze</li>
 					<li>RF_Poison</li>
+					<li>RF_Aegis</li>
+					<li>RF_Deflect</li>
+					<li>RF_Rebound</li>
+					<li>RF_Untouchable</li>
 				</weaponTraitsPool>
 				<minWeaponTraits>1</minWeaponTraits>
 				<maxWeaponTraits>2</maxWeaponTraits>

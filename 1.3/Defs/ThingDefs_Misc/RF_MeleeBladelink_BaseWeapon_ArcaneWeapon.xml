@@ -20,8 +20,8 @@
 					<li>RF_Scorch</li>
 					<li>RF_Slow</li>
 				</weaponTraitsPool>
-				<minWeaponTraits>4</minWeaponTraits>
-				<maxWeaponTraits>10</maxWeaponTraits>
+				<minWeaponTraits>1</minWeaponTraits>
+				<maxWeaponTraits>1</maxWeaponTraits>
 			</li>
 			<li Class="CompProperties_GeneratedName">
 				<nameMaker>RF_Namer_ArcaneWeapons</nameMaker>

@@ -18,7 +18,7 @@
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
 
-	<RimFantasy.ArcaneWeaponTraitDef>
+	<!--<RimFantasy.ArcaneWeaponTraitDef>
 		<defName>RF_Blaze</defName>
 		<label>blaze</label>
 		<description>This weapon is charged with fire magic and could potentially light enemies it strikes on fire.</description>
@@ -33,7 +33,7 @@
 		</workerSettings>
 		<commonality>1</commonality>
 		<marketValueOffset>400</marketValueOffset>
-	</RimFantasy.ArcaneWeaponTraitDef>
+	</RimFantasy.ArcaneWeaponTraitDef>-->
 
 	<RimFantasy.ArcaneWeaponTraitDef>
 		<defName>RF_MinorBlaze</defName>

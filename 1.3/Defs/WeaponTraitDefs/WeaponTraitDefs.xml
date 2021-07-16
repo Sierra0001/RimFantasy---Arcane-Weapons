@@ -65,11 +65,10 @@
 		<description>PLACEHOLDER</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
-			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+			<li Class="RimFantasy.WeaponEffect_Drain">
 				<effectChance>0.6</effectChance>
-				<hediffDef>RF_CooldownIncrease</hediffDef>
-				<partToApply>Brain</partToApply><!-- can be omited -->
-				<severityOffset>1</severityOffset><!-- can be omited -->
+				<hpToDrain>10~100</hpToDrain>
+				<drainDamage>RF_DrainDamage</drainDamage>
 			</li>
 		</weaponEffects>
 		<commonality>1</commonality>

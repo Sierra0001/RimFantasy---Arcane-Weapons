@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RimFantasy - Arcane Weapons</name>
+	<author>Sierra</author>
+	<packageId>Sierra.RF.ArcaneWeapons</packageId>
+	<url></url>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Sierra.RF.Core</packageId>
+	 		<displayName>RimFantasy - Core</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Sierra.RF.Core</li>
+	</loadAfter>
+	<description>
+[h1]Mod Version: v0.1-a.1[/h1]
+
+
+This mod adds X new magical weapons that hold untold power.
+
+These weapons are infused with magic and can only be wielded by one person. Expensive to make as they are difficult to craft, much resource have to be invested into their creation and impure materials are lost in the process.
+
+
+[b]Features:[/b]
+[list]
+[*]X Empowered weapons
+[/list]
+
+
+[b]Recommended Mods:[/b]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Core[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Temperature Regulation[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Crystallic Lighting[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colours[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291]RimTraits - Medieval Talent[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2206957172]RimTraits - General Traits[/url]
+[/list]
+
+
+[b]Mod Compatibility:[/b]
+[list]
+[*]No Specific Issues Known.
+[*]Probably won't play nice with other gem mod without a patch.
+[/list]
+
+
+
+[b]Balance:[/b]
+Gems are intentionally sparse and not easy to obtain through natural means, but can be obtained through trades and from salvaging certain objects.
+
+Balance feedbacks are welcomed, please provide context when doing so.
+
+
+[url=https://discord.gg/rimworld]Click here to join us on the Community Discord![/url]
+
+
+[h1]Credits:[/h1]
+[list]
+[*]SirLalaPyon for his amazing, high quality vanilla styled art.
+[/list]
+
+
+[h1]Latest Changes:[/h1]
+[b]v0.1-a.1[/b]
+[list]
+[*][RimWorld 1.3] RimWorld 1.3 Ready.
+[/list]
+	</description>
+</ModMetaData>

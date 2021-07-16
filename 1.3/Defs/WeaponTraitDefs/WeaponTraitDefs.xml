@@ -48,5 +48,31 @@
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
 	
-
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Drain</defName>
+		<label>drain</label>
+		<description>PLACEHOLDER</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<workerSettings Class="RimFantasy.WeaponEffect_ApplyHediff">
+			<effectChance>0.6</effectChance>
+			<hediffDef>RF_CooldownIncrease</hediffDef>
+			<partToApply>Brain</partToApply> <!-- can be omited -->
+			<initialSeverity>1</initialSeverity> <!-- can be omited -->
+		</workerSettings>
+		<commonality>1</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+	
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Heal</defName>
+		<label>heal</label>
+		<description>PLACEHOLDER</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<workerSettings Class="RimFantasy.WeaponEffect_Heal">
+			<effectChance>0.6</effectChance>
+			<hpToHeal>10~100</hpToHeal>
+		</workerSettings>
+		<commonality>1</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
 </Defs>

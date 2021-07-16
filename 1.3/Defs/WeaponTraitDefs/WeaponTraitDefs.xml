@@ -32,7 +32,7 @@
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
-	
+
 	<RimFantasy.ArcaneWeaponTraitDef>
 		<defName>RF_Slow</defName>
 		<label>slow</label>
@@ -47,7 +47,7 @@
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
-	
+
 	<RimFantasy.ArcaneWeaponTraitDef>
 		<defName>RF_Drain</defName>
 		<label>drain</label>
@@ -62,7 +62,7 @@
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
-	
+
 	<RimFantasy.ArcaneWeaponTraitDef>
 		<defName>RF_Heal</defName>
 		<label>heal</label>

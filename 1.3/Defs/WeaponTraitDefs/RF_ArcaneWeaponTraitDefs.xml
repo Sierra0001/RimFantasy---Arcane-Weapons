@@ -67,7 +67,7 @@
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
 
-	<RimFantasy.ArcaneWeaponTraitDef>
+	<!--<RimFantasy.ArcaneWeaponTraitDef>
 		<defName>RF_Scorch</defName>
 		<label>scorch</label>
 		<description>This weapon is charged with fire magic and could potentially burn enemies it strikes.</description>
@@ -80,7 +80,7 @@
 		</workerSettings>
 		<commonality>0.5</commonality>
 		<marketValueOffset>400</marketValueOffset>
-	</RimFantasy.ArcaneWeaponTraitDef>
+	</RimFantasy.ArcaneWeaponTraitDef>-->
 
 	<RimFantasy.ArcaneWeaponTraitDef>
 		<defName>RF_MinorScorch</defName>

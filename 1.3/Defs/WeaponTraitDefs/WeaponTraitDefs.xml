@@ -114,7 +114,7 @@
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Slash">
 				<effectChance>0.6</effectChance>
-				<effectDamage>Burn</effectDamage>
+				<effectDamage></effectDamage>
 				<baseDamageValue>30</baseDamageValue>
 				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
 				<amountOfEnemies>2~3</amountOfEnemies>
@@ -142,7 +142,7 @@
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
-	
+
 	<RimFantasy.ArcaneWeaponTraitDef>
 		<defName>RF_Freeze</defName>
 		<label>freeze</label>
@@ -156,7 +156,7 @@
 				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
 			</li>
 			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
-				<effectChance>1</effectChance>
+				<effectChance>0.8</effectChance>
 				<hediffDef>Hypothermia</hediffDef>
 				<severityOffset>0.3</severityOffset>
 			</li>
@@ -164,7 +164,7 @@
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
-	
+
 	<RimFantasy.ArcaneWeaponTraitDef>
 		<defName>RF_Poison</defName>
 		<label>poison</label>
@@ -172,12 +172,12 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
-				<effectChance>1</effectChance>
+				<effectChance>0.8</effectChance>
 				<hediffDef>ChemicalBurn</hediffDef>
 				<severityOffset>0.3</severityOffset>
 			</li>
 			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
-				<effectChance>1</effectChance>
+				<effectChance>0.8</effectChance>
 				<hediffDef>ToxicBuildup</hediffDef>
 				<severityOffset>0.3</severityOffset>
 			</li>

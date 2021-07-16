@@ -21,6 +21,11 @@
 					<li>RF_Slow</li>
 					<li>RF_Drain</li>
 					<li>RF_Heal</li>
+					<li>RF_Stun</li>
+					<li>RF_Slash</li>
+					<li>RF_Magic</li>
+					<li>RF_Freeze</li>
+					<li>RF_Poison</li>
 				</weaponTraitsPool>
 				<minWeaponTraits>1</minWeaponTraits>
 				<maxWeaponTraits>2</maxWeaponTraits>

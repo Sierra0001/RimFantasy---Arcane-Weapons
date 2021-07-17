@@ -2,26 +2,31 @@
 <Defs>
 
   <ThingDef ParentName="BaseWeapon_ArcaneWeapon">
-    <defName>RF_MeleeWeapon_GuardianClaymore</defName>
-    <label>guardian claymore</label>
+    <defName>RF_RangedWeapon_GuardianLongBow</defName>
+    <label>guardian longbow</label>
     <description>A jewelled claymore infused with magic that enables its users to fight more effectively.
 \nThis weapon is enchanted and can only be wielded by a single person. The charged nature of the weapon also means that it may unleash a wave of energy upon destruction.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponMelee/RF_GuardianClaymore/RF_GuardianClaymore</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/BowGreat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <tickerType>Normal</tickerType>
     <soundInteract>Interact_BladelinkMonoSword</soundInteract>
-    <meleeHitSound>MeleeHit_BladelinkMonoSword</meleeHitSound>
+    <!--<meleeHitSound>MeleeHit_BladelinkMonoSword</meleeHitSound>-->
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>MedievalMeleeAdvanced</li>
+      <li>NeolithicRangedChief</li>
     </weaponTags>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <statBases>
       <WorkToMake>18000</WorkToMake>
       <Mass>2</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
     </statBases>
     <relicChance>2</relicChance>
     <equippedAngleOffset>-65</equippedAngleOffset>
@@ -80,32 +85,25 @@
 				</westOffset>
 			</li>
     </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RF_Arrow_Arcane</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>30</range>
+        <soundCast>Bow_Large</soundCast>
+      </li>
+    </verbs>
     <tools>
       <li>
-        <label>handle</label>
+        <label>limb</label>
         <capacities>
           <li>Blunt</li>
+          <li>Poke</li>
         </capacities>
         <power>10</power>
         <cooldownTime>1.8</cooldownTime>
-      </li>
-      <li>
-        <label>point</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.1</cooldownTime>
-        <armorPenetration>0.15</armorPenetration>
-      </li>
-      <li>
-        <label>edge</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.1</cooldownTime>
-        <armorPenetration>0.15</armorPenetration>
       </li>
     </tools>
     <recipeMaker>
@@ -114,6 +112,21 @@
         <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>RF_Arrow_Arcane</defName>
+    <label>arcane arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>1.2</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>49</speed>
+    </projectile>
   </ThingDef>
 
 </Defs>

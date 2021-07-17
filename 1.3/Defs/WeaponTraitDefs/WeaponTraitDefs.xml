@@ -281,6 +281,7 @@
                 <amountOfEnemies>1~3</amountOfEnemies>
                 <maxDistance>2.5</maxDistance>
                 <knockbackDistance>2</knockbackDistance>
+				<knockbackDistanceSecondaryTargets>1</knockbackDistanceSecondaryTargets>
                 <baseDamageFactor>0.5</baseDamageFactor>
 			</li>
 		</weaponEffects>

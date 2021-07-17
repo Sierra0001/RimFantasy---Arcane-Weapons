@@ -225,6 +225,8 @@
 		<shieldCombatRecovery>false</shieldCombatRecovery>
 		<deflectMeleeChance>0.9</deflectMeleeChance>
 		<deflectRangeChance>0.9</deflectRangeChance>
+		<fleckDefOnDeflect>ElectricalSpark</fleckDefOnDeflect>
+		<fleckDefOnDeflectScale>1</fleckDefOnDeflectScale>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
@@ -235,6 +237,8 @@
 		<description>PLACEHOLDER</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<deflectMeleeChance>0.9</deflectMeleeChance>
+		<fleckDefOnDeflect>ElectricalSpark</fleckDefOnDeflect>
+		<fleckDefOnDeflectScale>1</fleckDefOnDeflectScale>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
@@ -245,6 +249,8 @@
 		<description>PLACEHOLDER</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<deflectRangeChance>0.9</deflectRangeChance>
+		<fleckDefOnDeflect>ElectricalSpark</fleckDefOnDeflect>
+		<fleckDefOnDeflectScale>1</fleckDefOnDeflectScale>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
@@ -256,6 +262,8 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<deflectMeleeChance>0.9</deflectMeleeChance>
 		<deflectRangeChance>0.9</deflectRangeChance>
+		<fleckDefOnDeflect>ElectricalSpark</fleckDefOnDeflect>
+		<fleckDefOnDeflectScale>1</fleckDefOnDeflectScale>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>

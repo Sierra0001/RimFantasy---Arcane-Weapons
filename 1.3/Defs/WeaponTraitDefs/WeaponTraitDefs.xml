@@ -223,7 +223,8 @@
 		<shieldEnergyMax>1.1</shieldEnergyMax>
 		<shieldTexPath>Other/ShieldBubble</shieldTexPath>
 		<shieldCombatRecovery>false</shieldCombatRecovery>
-		<shieldDeflectChance>0.5</shieldDeflectChance>
+		<deflectMeleeChance>0.9</deflectMeleeChance>
+		<deflectRangeChance>0.9</deflectRangeChance>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>

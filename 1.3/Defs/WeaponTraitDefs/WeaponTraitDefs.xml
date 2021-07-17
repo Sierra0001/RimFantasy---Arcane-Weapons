@@ -125,7 +125,7 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Stun">
-				<effectChance>0.6</effectChance>
+				<effectChance>0.8</effectChance>
 				<stunDuration>10~100</stunDuration>
 				<baseDamageValue>5</baseDamageValue>
 			</li>
@@ -141,7 +141,7 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Slash">
-				<effectChance>0.6</effectChance>
+				<effectChance>0.8</effectChance>
 				<baseDamageValue>5</baseDamageValue>
 				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
 				<amountOfEnemies>2~3</amountOfEnemies>

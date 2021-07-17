@@ -31,6 +31,7 @@
 					<li>RF_Deflect</li>
 					<li>RF_Rebound</li>
 					<li>RF_Untouchable</li>
+					<li>RF_Slam</li>
 				</weaponTraitsPool>
 				<minWeaponTraits>1</minWeaponTraits>
 				<maxWeaponTraits>2</maxWeaponTraits>

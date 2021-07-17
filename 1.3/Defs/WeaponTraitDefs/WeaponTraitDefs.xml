@@ -267,4 +267,24 @@
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
+	
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Slam</defName>
+		<label>slam</label>
+		<description>PLACEHOLDER</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_Slam">
+				<effectChance>0.6</effectChance>
+                <baseDamageValue>5</baseDamageValue>
+                <fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
+                <amountOfEnemies>1~3</amountOfEnemies>
+                <maxDistance>2.5</maxDistance>
+                <knockbackDistance>2</knockbackDistance>
+                <baseDamageFactor>0.5</baseDamageFactor>
+			</li>
+		</weaponEffects>
+		<commonality>1</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
 </Defs>

@@ -227,7 +227,7 @@
 		<deflectMeleeChance>0.9</deflectMeleeChance>
 		<deflectRangeChance>0.9</deflectRangeChance>
 		<fleckDefOnDeflect>ElectricalSpark</fleckDefOnDeflect>
-		<fleckDefOnDeflectScale>1</fleckDefOnDeflectScale>
+		<fleckDefOnDeflectScale>3</fleckDefOnDeflectScale>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
@@ -239,7 +239,7 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<deflectMeleeChance>0.9</deflectMeleeChance>
 		<fleckDefOnDeflect>ElectricalSpark</fleckDefOnDeflect>
-		<fleckDefOnDeflectScale>1</fleckDefOnDeflectScale>
+		<fleckDefOnDeflectScale>3</fleckDefOnDeflectScale>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
@@ -251,7 +251,7 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<deflectRangeChance>0.9</deflectRangeChance>
 		<fleckDefOnDeflect>ElectricalSpark</fleckDefOnDeflect>
-		<fleckDefOnDeflectScale>1</fleckDefOnDeflectScale>
+		<fleckDefOnDeflectScale>3</fleckDefOnDeflectScale>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
@@ -264,7 +264,7 @@
 		<deflectMeleeChance>0.9</deflectMeleeChance>
 		<deflectRangeChance>0.9</deflectRangeChance>
 		<fleckDefOnDeflect>ElectricalSpark</fleckDefOnDeflect>
-		<fleckDefOnDeflectScale>1</fleckDefOnDeflectScale>
+		<fleckDefOnDeflectScale>3</fleckDefOnDeflectScale>
 		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
@@ -281,8 +281,8 @@
                 <fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
                 <amountOfEnemies>1~3</amountOfEnemies>
                 <maxDistance>2.5</maxDistance>
-                <knockbackDistance>2</knockbackDistance>
-				<knockbackDistanceSecondaryTargets>1</knockbackDistanceSecondaryTargets>
+                <knockbackDistance>4</knockbackDistance>
+				<knockbackDistanceSecondaryTargets>8</knockbackDistanceSecondaryTargets>
                 <baseDamageFactor>0.5</baseDamageFactor>
 			</li>
 		</weaponEffects>

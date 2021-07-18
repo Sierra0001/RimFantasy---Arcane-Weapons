@@ -48,9 +48,9 @@
 				<glowWhileOnGround>true</glowWhileOnGround>
 				<glowWhileStockpiled>true</glowWhileStockpiled>
 				<glowWhileEquipped>true</glowWhileEquipped>
-				<glowRadiusEquipped>1</glowRadiusEquipped>
+				<glowRadiusEquipped>7</glowRadiusEquipped>
 				<glowWhileDrawn>true</glowWhileDrawn>
-				<glowRadiusDrawn>2</glowRadiusDrawn>
+				<glowRadiusDrawn>24</glowRadiusDrawn>
       </li>
       <li Class="RimFantasy.CompProperties_WornWeapon">
 				<sheathOnlyGraphicData>

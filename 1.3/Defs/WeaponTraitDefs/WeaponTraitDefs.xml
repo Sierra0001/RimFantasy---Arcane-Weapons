@@ -8,7 +8,7 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_SetOnFire">
-				<effectChance>0.6</effectChance>
+				<effectChance>0.8</effectChance>
 				<effectDamage>Burn</effectDamage>
 				<baseDamageValue>5</baseDamageValue>
 				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
@@ -27,7 +27,7 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect">
-				<effectChance>0.6</effectChance>
+				<effectChance>0.8</effectChance>
 				<effectDamage>Burn</effectDamage>
 				<baseDamageValue>5</baseDamageValue>
 				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
@@ -49,7 +49,7 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
-				<effectChance>0.6</effectChance>
+				<effectChance>0.8</effectChance>
 				<hediffDef>RF_CooldownIncrease</hediffDef>
 				<partToApply>Brain</partToApply><!-- can be omited -->
 				<severityOffset>1</severityOffset><!-- can be omited -->
@@ -67,7 +67,7 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Drain">
-				<effectChance>0.6</effectChance>
+				<effectChance>0.8</effectChance>
 				<hpToDrain>10~25</hpToDrain>
 				<drainDamage>RF_DrainDamage</drainDamage>
 			</li>
@@ -87,7 +87,7 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Multiple">
-				<effectChance>0.6</effectChance>
+				<effectChance>0.8</effectChance>
 				<weaponEffects>
 					<li Class="RimFantasy.WeaponEffect_Drain">
 						<hpToDrain>10~25</hpToDrain>
@@ -110,7 +110,7 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Heal">
-				<effectChance>0.6</effectChance>
+				<effectChance>0.8</effectChance>
 				<hpToHeal>10~15</hpToHeal>
 			</li>
 		</weaponEffects>
@@ -160,7 +160,7 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect">
-				<effectChance>0.6</effectChance>
+				<effectChance>0.8</effectChance>
 				<effectDamage>Burn</effectDamage>
 				<baseDamageValue>5</baseDamageValue>
 				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>
@@ -177,7 +177,7 @@
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect">
-				<effectChance>0.6</effectChance>
+				<effectChance>0.8</effectChance>
 				<effectDamage>Frostbite</effectDamage>
 				<baseDamageValue>5</baseDamageValue>
 				<fleckDefOnTarget>ElectricalSpark</fleckDefOnTarget>

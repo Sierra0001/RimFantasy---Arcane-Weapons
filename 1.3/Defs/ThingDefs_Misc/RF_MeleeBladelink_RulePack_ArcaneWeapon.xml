@@ -11,6 +11,7 @@
         <li>r_weapon_name(p=1)->[beginSyl][endSyl][the]&#160;[noun][verber]</li>
         <li>r_weapon_name(p=1)->[beginSyl][middleSyl][endSyl][the]&#160;[noun][verber]</li>
         <!--Name one after Ogliss. Ogliss, the lightbringer, or when mod is mature, Ask what kind of weapon he wants to be, and the title.-->
+        <!--Name a hammer after Brrainz. Brrain-I-nator, the Wrath of Brrainz.-->
 
         <li>beginSyl->alu</li>
         <li>beginSyl->ar</li>

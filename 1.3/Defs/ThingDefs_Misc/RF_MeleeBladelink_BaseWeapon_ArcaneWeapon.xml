@@ -14,7 +14,7 @@
 				<compClass>CompQuality</compClass>
 			</li>
 			<li Class="RimFantasy.CompProperties_ArcaneWeapon">
-				<biocodeOnEquip>true</biocodeOnEquip>
+				<biocodeOnEquip>false</biocodeOnEquip>
 				<weaponTraitsPool>
 					<li>RF_Blaze</li>
 					<li>RF_Scorch</li>

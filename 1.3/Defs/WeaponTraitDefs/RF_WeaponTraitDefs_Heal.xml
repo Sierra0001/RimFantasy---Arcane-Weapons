@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_MinorHeal</defName>
+		<label>minor heal</label>
+		<description>Enchanted with lower healing magic, this weapon can sometimes release a weak wave of restorative energy upon the wielder.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_Heal">
+				<effectChance>0.9</effectChance>
+				<hpToHeal>2~5</hpToHeal>
+				<fleckDefOnTarget>RF_Fleck_BlastPeridot_Round</fleckDefOnTarget> <!-- Reminder: Ask Taran for fleckDefOnSelf -->
+			</li>
+		</weaponEffects>
+		<commonality>1.25</commonality>
+		<marketValueOffset>200</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Heal</defName>
+		<label>heal</label>
+		<description>Enchanted with healing magic, this weapon can sometimes release a wave of restorative energy upon the wielder.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_Heal">
+				<effectChance>0.9</effectChance>
+				<hpToHeal>4~7</hpToHeal>
+				<fleckDefOnTarget>RF_Fleck_BlastPeridot_Round</fleckDefOnTarget>
+			</li>
+		</weaponEffects>
+		<commonality>1</commonality>
+		<marketValueOffset>400</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_MajorHeal</defName>
+		<label>major heal</label>
+		<description>Enchanted with higher healing magic, this weapon can sometimes release a powerful wave of restorative energy upon the wielder.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_Heal">
+				<effectChance>0.9</effectChance>
+				<hpToHeal>6~9</hpToHeal>
+				<fleckDefOnTarget>RF_Fleck_BlastPeridot_Round</fleckDefOnTarget>
+			</li>
+		</weaponEffects>
+		<commonality>0.25</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+</Defs>

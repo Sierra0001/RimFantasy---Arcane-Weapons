@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--========== Diamond War Hammer ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
+        <defName>RF_DiamondWarHammer</defName>
+        <label>diamond war hammer</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_DiamondWarHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Diamond>75</RF_Diamond>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Diamond</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Diamond</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Ruby War Hammer ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
+        <defName>RF_RubyWarHammer</defName>
+        <label>ruby war hammer</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_RubyWarHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Ruby>75</RF_Ruby>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Ruby</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Ruby</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Carnelian War Hammer ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
+        <defName>RF_CarnelianWarHammer</defName>
+        <label>carnelian war hammer</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_CarnelianWarHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Carnelian>75</RF_Carnelian>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Carnelian</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Carnelian</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Citrine War Hammer ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
+        <defName>RF_CitrineWarHammer</defName>
+        <label>citrine war hammer</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_CitrineWarHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Citrine>75</RF_Citrine>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Citrine</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Citrine</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Peridot War Hammer ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
+        <defName>RF_PeridotWarHammer</defName>
+        <label>peridot war hammer</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_PeridotWarHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Peridot>75</RF_Peridot>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Peridot</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Peridot</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Emerald War Hammer ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
+        <defName>RF_EmeraldWarHammer</defName>
+        <label>emerald war hammer</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_EmeraldWarHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Emerald>75</RF_Emerald>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Emerald</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Emerald</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Aquamarine War Hammer ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
+        <defName>RF_AquamarineWarHammer</defName>
+        <label>aquamarine war hammer</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_AquamarineWarHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Aquamarine>75</RF_Aquamarine>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Aquamarine</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Aquamarine</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Sapphire War Hammer ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
+        <defName>RF_SapphireWarHammer</defName>
+        <label>sapphire war hammer</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_SapphireWarHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Sapphire>75</RF_Sapphire>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Sapphire</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Sapphire</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Amethyst War Hammer ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
+        <defName>RF_AmethystWarHammer</defName>
+        <label>amethyst war hammer</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_AmethystWarHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Amethyst>75</RF_Amethyst>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Amethyst</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Amethyst</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Kunzite War Hammer ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
+        <defName>RF_KunziteWarHammer</defName>
+        <label>kunzite war hammer</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_KunziteWarHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Kunzite>75</RF_Kunzite>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Kunzite</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Kunzite</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Onyx War Hammer ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
+        <defName>RF_OnyxWarHammer</defName>
+        <label>onyx war hammer</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_OnyxWarHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Onyx>75</RF_Onyx>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Onyx</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Onyx</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--========== Diamond Battle Axe ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
+        <defName>RF_DiamondBattleAxe</defName>
+        <label>diamond battle axe</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_DiamondBattleAxe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Diamond>75</RF_Diamond>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Diamond</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Diamond</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Ruby Battle Axe ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
+        <defName>RF_RubyBattleAxe</defName>
+        <label>ruby battle axe</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_RubyBattleAxe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Ruby>75</RF_Ruby>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Ruby</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Ruby</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Carnelian Battle Axe ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
+        <defName>RF_CarnelianBattleAxe</defName>
+        <label>carnelian battle axe</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_CarnelianBattleAxe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Carnelian>75</RF_Carnelian>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Carnelian</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Carnelian</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Citrine Battle Axe ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
+        <defName>RF_CitrineBattleAxe</defName>
+        <label>citrine battle axe</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_CitrineBattleAxe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Citrine>75</RF_Citrine>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Citrine</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Citrine</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Peridot Battle Axe ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
+        <defName>RF_PeridotBattleAxe</defName>
+        <label>peridot battle axe</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_PeridotBattleAxe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Peridot>75</RF_Peridot>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Peridot</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Peridot</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Emerald Battle Axe ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
+        <defName>RF_EmeraldBattleAxe</defName>
+        <label>emerald battle axe</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_EmeraldBattleAxe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Emerald>75</RF_Emerald>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Emerald</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Emerald</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Aquamarine Battle Axe ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
+        <defName>RF_AquamarineBattleAxe</defName>
+        <label>aquamarine battle axe</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_AquamarineBattleAxe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Aquamarine>75</RF_Aquamarine>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Aquamarine</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Aquamarine</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Sapphire Battle Axe ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
+        <defName>RF_SapphireBattleAxe</defName>
+        <label>sapphire battle axe</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_SapphireBattleAxe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Sapphire>75</RF_Sapphire>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Sapphire</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Sapphire</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Amethyst Battle Axe ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
+        <defName>RF_AmethystBattleAxe</defName>
+        <label>amethyst battle axe</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_AmethystBattleAxe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Amethyst>75</RF_Amethyst>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Amethyst</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Amethyst</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Kunzite Battle Axe ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
+        <defName>RF_KunziteBattleAxe</defName>
+        <label>kunzite battle axe</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_KunziteBattleAxe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Kunzite>75</RF_Kunzite>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Kunzite</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Kunzite</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Onyx Battle Axe ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
+        <defName>RF_OnyxBattleAxe</defName>
+        <label>onyx battle axe</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_OnyxBattleAxe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Onyx>75</RF_Onyx>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Onyx</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Onyx</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_MinorParry</defName>
+		<label>minor parry</label>
+		<description>Enchanted with lower battle magic, this weapon projects a weak bubble of magical energy that can sometimes shield the user from melee attacks.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<isShield>true</isShield>
+		<shieldRechargeRate>0.10</shieldRechargeRate>
+		<shieldEnergyMax>1.1</shieldEnergyMax>
+		<shieldTexPath>Other/ShieldBubble</shieldTexPath>
+		<shieldCombatRecovery>false</shieldCombatRecovery>
+		<deflectMeleeChance>0.75</deflectMeleeChance>
+		<fleckDefOnDeflect>ElectricalSpark</fleckDefOnDeflect>
+		<fleckDefOnDeflectScale>2.25</fleckDefOnDeflectScale>
+		<commonality>1.25</commonality>
+		<marketValueOffset>200</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_Parry</defName>
+		<label>parry</label>
+		<description>Enchanted with battle magic, this weapon projects a bubble of magical energy that can sometimes shield the user from melee attacks.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<isShield>true</isShield>
+		<shieldRechargeRate>0.10</shieldRechargeRate>
+		<shieldEnergyMax>1.5</shieldEnergyMax>
+		<shieldTexPath>Other/ShieldBubble</shieldTexPath>
+		<shieldCombatRecovery>false</shieldCombatRecovery>
+		<deflectMeleeChance>0.75</deflectMeleeChance>
+		<fleckDefOnDeflect>ElectricalSpark</fleckDefOnDeflect>
+		<fleckDefOnDeflectScale>2.25</fleckDefOnDeflectScale>
+		<commonality>1</commonality>
+		<marketValueOffset>400</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_MajorParry</defName>
+		<label>major parry</label>
+		<description>Enchanted with higher battle magic, this weapon projects a powerful bubble of magical energy that can sometimes shield the user from melee attacks.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<isShield>true</isShield>
+		<shieldRechargeRate>0.12</shieldRechargeRate>
+		<shieldEnergyMax>1.85</shieldEnergyMax>
+		<shieldTexPath>Other/ShieldBubble</shieldTexPath>
+		<shieldCombatRecovery>false</shieldCombatRecovery>
+		<deflectMeleeChance>0.75</deflectMeleeChance>
+		<fleckDefOnDeflect>ElectricalSpark</fleckDefOnDeflect>
+		<fleckDefOnDeflectScale>2.25</fleckDefOnDeflectScale>
+		<commonality>0.25</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+</Defs>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--========== Diamond Longsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_DiamondLongsword</defName>
+        <label>diamond longsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_DiamondLongsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Diamond>75</RF_Diamond>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Diamond</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Diamond</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Ruby Longsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_RubyLongsword</defName>
+        <label>ruby longsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_RubyLongsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Ruby>75</RF_Ruby>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Ruby</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Ruby</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Carnelian Longsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_CarnelianLongsword</defName>
+        <label>carnelian longsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_CarnelianLongsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Carnelian>75</RF_Carnelian>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Carnelian</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Carnelian</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Citrine Longsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_CitrineLongsword</defName>
+        <label>citrine longsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_CitrineLongsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Citrine>75</RF_Citrine>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Citrine</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Citrine</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Peridot Longsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_PeridotLongsword</defName>
+        <label>peridot longsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_PeridotLongsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Peridot>75</RF_Peridot>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Peridot</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Peridot</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Emerald Longsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_EmeraldLongsword</defName>
+        <label>emerald longsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_EmeraldLongsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Emerald>75</RF_Emerald>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Emerald</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Emerald</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Aquamarine Longsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_AquamarineLongsword</defName>
+        <label>aquamarine longsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_AquamarineLongsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Aquamarine>75</RF_Aquamarine>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Aquamarine</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Aquamarine</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Sapphire Longsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_SapphireLongsword</defName>
+        <label>sapphire longsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_SapphireLongsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Sapphire>75</RF_Sapphire>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Sapphire</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Sapphire</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Amethyst Longsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_AmethystLongsword</defName>
+        <label>amethyst longsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_AmethystLongsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Amethyst>75</RF_Amethyst>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Amethyst</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Amethyst</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Kunzite Longsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_KunziteLongsword</defName>
+        <label>kunzite longsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_KunziteLongsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Kunzite>75</RF_Kunzite>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Kunzite</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Kunzite</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+    <!--========== Onyx Longsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_OnyxLongsword</defName>
+        <label>onyx longsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_OnyxLongsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Onyx>75</RF_Onyx>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Onyx</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Onyx</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

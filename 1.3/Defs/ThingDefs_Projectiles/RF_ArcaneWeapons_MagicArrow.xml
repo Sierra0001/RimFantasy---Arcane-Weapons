@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--========== Magic Arrows ==========-->
+  <!--========== Used for all bows. ==========-->
+
+  <!--========== Diamond Arcane Arrow ==========-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>RF_MagicArrow_Diamond</defName>
+    <label>diamond arcane arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/RF_MagicArrow_Diamond</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+
+  <!--========== Ruby Arcane Arrow ==========-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>RF_MagicArrow_Ruby</defName>
+    <label>ruby arcane arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/RF_MagicArrow_Ruby</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+
+  <!--========== Carnelian Arcane Arrow ==========-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>RF_MagicArrow_Carnelian</defName>
+    <label>carnelian arcane arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/RF_MagicArrow_Carnelian</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+
+  <!--========== Citrine Arcane Arrow ==========-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>RF_MagicArrow_Citrine</defName>
+    <label>citrine arcane arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/RF_MagicArrow_Citrine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+
+  <!--========== Peridot Arcane Arrow ==========-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>RF_MagicArrow_Peridot</defName>
+    <label>peridot arcane arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/RF_MagicArrow_Peridot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+
+  <!--========== Emerald Arcane Arrow ==========-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>RF_MagicArrow_Emerald</defName>
+    <label>emerald arcane arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/RF_MagicArrow_Emerald</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+
+  <!--========== Aquamarine Arcane Arrow ==========-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>RF_MagicArrow_Aquamarine</defName>
+    <label>aquamarine arcane arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/RF_MagicArrow_Aquamarine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+
+  <!--========== Sapphire Arcane Arrow ==========-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>RF_MagicArrow_Sapphire</defName>
+    <label>sapphire arcane arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/RF_MagicArrow_Sapphire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+
+  <!--========== Amethyst Arcane Arrow ==========-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>RF_MagicArrow_Amethyst</defName>
+    <label>amethyst arcane arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/RF_MagicArrow_Amethyst</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+
+  <!--========== Kunzite Arcane Arrow ==========-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>RF_MagicArrow_Kunzite</defName>
+    <label>kunzite arcane arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/RF_MagicArrow_Kunzite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+
+  <!--========== Onyx Arcane Arrow ==========-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>RF_MagicArrow_Onyx</defName>
+    <label>onyx arcane arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/RF_MagicArrow_Onyx</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

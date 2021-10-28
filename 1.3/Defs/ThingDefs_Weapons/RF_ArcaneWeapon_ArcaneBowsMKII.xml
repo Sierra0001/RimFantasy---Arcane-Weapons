@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--========== Diamond Bow ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_DiamondBow</defName>
+        <label>diamond bow</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_DiamondBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Diamond>75</RF_Diamond>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Diamond</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Diamond</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicArrow_Diamond</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!--========== Ruby Bow ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_RubyBow</defName>
+        <label>ruby bow</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_RubyBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Ruby>75</RF_Ruby>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Ruby</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Ruby</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicArrow_Ruby</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!--========== Carnelian Bow ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_CarnelianBow</defName>
+        <label>carnelian bow</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_CarnelianBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Carnelian>75</RF_Carnelian>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Carnelian</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Carnelian</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicArrow_Carnelian</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!--========== Citrine Bow ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_CitrineBow</defName>
+        <label>citrine bow</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_CitrineBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Citrine>75</RF_Citrine>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Citrine</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Citrine</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicArrow_Citrine</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!--========== Peridot Bow ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_PeridotBow</defName>
+        <label>peridot bow</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_PeridotBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Peridot>75</RF_Peridot>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Peridot</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Peridot</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicArrow_Peridot</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!--========== Emerald Bow ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_EmeraldBow</defName>
+        <label>emerald bow</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_EmeraldBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Emerald>75</RF_Emerald>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Emerald</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Emerald</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicArrow_Emerald</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!--========== Aquamarine Bow ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_AquamarineBow</defName>
+        <label>aquamarine bow</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_AquamarineBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Aquamarine>75</RF_Aquamarine>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Aquamarine</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Aquamarine</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicArrow_Aquamarine</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!--========== Sapphire Bow ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_SapphireBow</defName>
+        <label>sapphire bow</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_SapphireBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Sapphire>75</RF_Sapphire>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Sapphire</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Sapphire</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicArrow_Sapphire</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!--========== Amethyst Bow ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_AmethystBow</defName>
+        <label>amethyst bow</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_AmethystBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Amethyst>75</RF_Amethyst>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Amethyst</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Amethyst</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicArrow_Amethyst</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!--========== Kunzite Bow ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_KunziteBow</defName>
+        <label>kunzite bow</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_KunziteBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Kunzite>75</RF_Kunzite>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Kunzite</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Kunzite</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicArrow_Kunzite</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
+            </li>
+        </verbs>
+    </ThingDef>
+
+    <!--========== Onyx Bow ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_OnyxBow</defName>
+        <label>onyx bow</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_OnyxBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Onyx>75</RF_Onyx>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Onyx</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Onyx</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicArrow_Onyx</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
+            </li>
+        </verbs>
+    </ThingDef>
+
+</Defs>

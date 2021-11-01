@@ -31,9 +31,9 @@
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>RF_MagicBolt_Diamond</defaultProjectile>
               <warmupTime>1.8</warmupTime>
-              <range>26</range>
+              <range>27</range>
               <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>5</burstShotCount>
+              <burstShotCount>6</burstShotCount>
               <soundCast>Shot_ChargeRifle</soundCast>
             </li>
         </verbs>
@@ -69,9 +69,9 @@
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>RF_MagicBolt_Ruby</defaultProjectile>
               <warmupTime>1.8</warmupTime>
-              <range>26</range>
+              <range>27</range>
               <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>5</burstShotCount>
+              <burstShotCount>6</burstShotCount>
               <soundCast>Shot_ChargeRifle</soundCast>
             </li>
         </verbs>
@@ -107,9 +107,9 @@
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>RF_MagicBolt_Carnelian</defaultProjectile>
               <warmupTime>1.8</warmupTime>
-              <range>26</range>
+              <range>27</range>
               <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>5</burstShotCount>
+              <burstShotCount>6</burstShotCount>
               <soundCast>Shot_ChargeRifle</soundCast>
             </li>
         </verbs>
@@ -145,9 +145,9 @@
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>RF_MagicBolt_Citrine</defaultProjectile>
               <warmupTime>1.8</warmupTime>
-              <range>26</range>
+              <range>27</range>
               <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>5</burstShotCount>
+              <burstShotCount>6</burstShotCount>
               <soundCast>Shot_ChargeRifle</soundCast>
             </li>
         </verbs>
@@ -183,9 +183,9 @@
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>RF_MagicBolt_Peridot</defaultProjectile>
               <warmupTime>1.8</warmupTime>
-              <range>26</range>
+              <range>27</range>
               <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>5</burstShotCount>
+              <burstShotCount>6</burstShotCount>
               <soundCast>Shot_ChargeRifle</soundCast>
             </li>
         </verbs>
@@ -221,9 +221,9 @@
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>RF_MagicBolt_Emerald</defaultProjectile>
               <warmupTime>1.8</warmupTime>
-              <range>26</range>
+              <range>27</range>
               <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>5</burstShotCount>
+              <burstShotCount>6</burstShotCount>
               <soundCast>Shot_ChargeRifle</soundCast>
             </li>
         </verbs>
@@ -259,9 +259,9 @@
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>RF_MagicBolt_Aquamarine</defaultProjectile>
               <warmupTime>1.8</warmupTime>
-              <range>26</range>
+              <range>27</range>
               <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>5</burstShotCount>
+              <burstShotCount>6</burstShotCount>
               <soundCast>Shot_ChargeRifle</soundCast>
             </li>
         </verbs>
@@ -297,9 +297,9 @@
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>RF_MagicBolt_Sapphire</defaultProjectile>
               <warmupTime>1.8</warmupTime>
-              <range>26</range>
+              <range>27</range>
               <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>5</burstShotCount>
+              <burstShotCount>6</burstShotCount>
               <soundCast>Shot_ChargeRifle</soundCast>
             </li>
         </verbs>
@@ -335,9 +335,9 @@
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>RF_MagicBolt_Amethyst</defaultProjectile>
               <warmupTime>1.8</warmupTime>
-              <range>26</range>
+              <range>27</range>
               <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>5</burstShotCount>
+              <burstShotCount>6</burstShotCount>
               <soundCast>Shot_ChargeRifle</soundCast>
             </li>
         </verbs>
@@ -373,9 +373,9 @@
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>RF_MagicBolt_Kunzite</defaultProjectile>
               <warmupTime>1.8</warmupTime>
-              <range>26</range>
+              <range>27</range>
               <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>5</burstShotCount>
+              <burstShotCount>6</burstShotCount>
               <soundCast>Shot_ChargeRifle</soundCast>
             </li>
         </verbs>
@@ -411,9 +411,9 @@
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>RF_MagicBolt_Onyx</defaultProjectile>
               <warmupTime>1.8</warmupTime>
-              <range>26</range>
+              <range>27</range>
               <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>5</burstShotCount>
+              <burstShotCount>6</burstShotCount>
               <soundCast>Shot_ChargeRifle</soundCast>
             </li>
         </verbs>

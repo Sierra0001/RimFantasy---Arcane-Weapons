@@ -9,11 +9,11 @@
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Multiple">
 				<effectChance>0.9</effectChance>
-				<fleckDefOnTarget>RF_Fleck_BlastAmethyst_Round</fleckDefOnTarget>
 				<weaponEffects>
 					<li Class="RimFantasy.WeaponEffect_Drain">
 						<hpToDrain>2~4</hpToDrain>
 						<drainDamage>RF_DrainDamage</drainDamage>
+						<fleckDefOnTarget>RF_Fleck_BlastAmethyst_Round</fleckDefOnTarget>
 					</li>
 					<li Class="RimFantasy.WeaponEffect_Heal">
 						<hpToHeal>1~2</hpToHeal>
@@ -33,11 +33,11 @@
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Multiple">
 				<effectChance>0.9</effectChance>
-				<fleckDefOnTarget>RF_Fleck_BlastAmethyst_Round</fleckDefOnTarget>
 				<weaponEffects>
 					<li Class="RimFantasy.WeaponEffect_Drain">
 						<hpToDrain>3~5</hpToDrain>
 						<drainDamage>RF_DrainDamage</drainDamage>
+						<fleckDefOnTarget>RF_Fleck_BlastAmethyst_Round</fleckDefOnTarget>
 					</li>
 					<li Class="RimFantasy.WeaponEffect_Heal">
 						<hpToHeal>2~3</hpToHeal>
@@ -57,11 +57,11 @@
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Multiple">
 				<effectChance>0.9</effectChance>
-				<fleckDefOnTarget>RF_Fleck_BlastAmethyst_Round</fleckDefOnTarget>
 				<weaponEffects>
 					<li Class="RimFantasy.WeaponEffect_Drain">
 						<hpToDrain>4~6</hpToDrain>
 						<drainDamage>RF_DrainDamage</drainDamage>
+						<fleckDefOnTarget>RF_Fleck_BlastAmethyst_Round</fleckDefOnTarget>
 					</li>
 					<li Class="RimFantasy.WeaponEffect_Heal">
 						<hpToHeal>3~4</hpToHeal>

@@ -7,16 +7,19 @@
 		<description>Enchanted with lower fire magic, this weapon can sometimes unleash a weak wave of magical energy and may cause heatstrokes.</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
-			<li Class="RimFantasy.WeaponEffect">
+			<li Class="RimFantasy.WeaponEffect_Multiple">
 				<effectChance>0.25</effectChance>
-				<effectDamage>Burn</effectDamage>
-				<baseDamageValue>2</baseDamageValue>
-				<fleckDefOnTarget>RF_Fleck_BlastCarnelian_Round</fleckDefOnTarget>
-			</li>
-			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
-				<effectChance>0.25</effectChance>
-				<hediffDef>Heatstroke</hediffDef>
-				<severityOffset>-0.25</severityOffset> <!--5% above Minor -->
+				<weaponEffects>
+					<li Class="RimFantasy.WeaponEffect">
+						<effectDamage>Burn</effectDamage>
+						<baseDamageValue>2</baseDamageValue>
+						<fleckDefOnTarget>RF_Fleck_BlastCarnelian_Round</fleckDefOnTarget>
+					</li>
+					<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+						<hediffDef>Heatstroke</hediffDef>
+						<severityOffset>-0.25</severityOffset> <!--5% above Minor -->
+					</li>
+				</weaponEffects>
 			</li>
 		</weaponEffects>
 		<commonality>1.25</commonality>
@@ -29,16 +32,19 @@
 		<description>Enchanted with fire magic, this weapon can sometimes unleash a wave of magical energy and may cause heatstrokes.</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
-			<li Class="RimFantasy.WeaponEffect">
+			<li Class="RimFantasy.WeaponEffect_Multiple">
 				<effectChance>0.25</effectChance>
-				<effectDamage>Burn</effectDamage>
-				<baseDamageValue>4</baseDamageValue>
-				<fleckDefOnTarget>RF_Fleck_BlastCarnelian_Round</fleckDefOnTarget>
-			</li>
-			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
-				<effectChance>0.25</effectChance>
-				<hediffDef>Heatstroke</hediffDef>
-				<severityOffset>-0.10</severityOffset> <!--5% above Serious -->
+				<weaponEffects>
+					<li Class="RimFantasy.WeaponEffect">
+						<effectDamage>Burn</effectDamage>
+						<baseDamageValue>4</baseDamageValue>
+						<fleckDefOnTarget>RF_Fleck_BlastCarnelian_Round</fleckDefOnTarget>
+					</li>
+					<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+						<hediffDef>Heatstroke</hediffDef>
+						<severityOffset>-0.10</severityOffset> <!--5% above Serious -->
+					</li>
+				</weaponEffects>
 			</li>
 		</weaponEffects>
 		<commonality>1</commonality>
@@ -51,16 +57,19 @@
 		<description>Enchanted with higher fire magic, this weapon can sometimes unleash a powerful wave of magical energy and may cause heatstrokes.</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
-			<li Class="RimFantasy.WeaponEffect">
-				<effectChance>0.20</effectChance>
-				<effectDamage>Burn</effectDamage>
-				<baseDamageValue>6</baseDamageValue>
-				<fleckDefOnTarget>RF_Fleck_BlastCarnelian_Round</fleckDefOnTarget>
-			</li>
-			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
-				<effectChance>0.20</effectChance>
-				<hediffDef>Heatstroke</hediffDef>
-				<severityOffset>0.15</severityOffset> <!--3% above Extreme -->
+			<li Class="RimFantasy.WeaponEffect_Multiple">
+				<effectChance>0.25</effectChance>
+				<weaponEffects>
+					<li Class="RimFantasy.WeaponEffect">
+						<effectDamage>Burn</effectDamage>
+						<baseDamageValue>6</baseDamageValue>
+						<fleckDefOnTarget>RF_Fleck_BlastCarnelian_Round</fleckDefOnTarget>
+					</li>
+					<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+						<hediffDef>Heatstroke</hediffDef>
+						<severityOffset>0.15</severityOffset> <!--3% above Extreme -->
+					</li>
+				</weaponEffects>
 			</li>
 		</weaponEffects>
 		<commonality>0.25</commonality>

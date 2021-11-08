@@ -7,16 +7,19 @@
 		<description>Enchanted with lower ice magic, this weapon can sometimes unleash a weak wave of magical energy and may cause hypothermia.</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
-			<li Class="RimFantasy.WeaponEffect">
+			<li Class="RimFantasy.WeaponEffect_Multiple">
 				<effectChance>0.25</effectChance>
-				<effectDamage>Frostbite</effectDamage>
-				<baseDamageValue>2</baseDamageValue>
-				<fleckDefOnTarget>RF_Fleck_BlastAquamarine_Round</fleckDefOnTarget>
-			</li>
-			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
-				<effectChance>0.25</effectChance>
-				<hediffDef>Hypothermia</hediffDef>
-				<severityOffset>-0.25</severityOffset> <!--5% above Minor -->
+				<weaponEffects>
+					<li Class="RimFantasy.WeaponEffect">
+						<effectDamage>Frostbite</effectDamage>
+						<baseDamageValue>2</baseDamageValue>
+						<fleckDefOnTarget>RF_Fleck_BlastAquamarine_Round</fleckDefOnTarget>
+					</li>
+					<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+						<hediffDef>Hypothermia</hediffDef>
+						<severityOffset>-0.25</severityOffset> <!--5% above Minor -->
+					</li>
+				</weaponEffects>
 			</li>
 		</weaponEffects>
 		<commonality>1.25</commonality>
@@ -29,16 +32,19 @@
 		<description>Enchanted with ice magic, this weapon can sometimes unleash a wave of magical energy and may cause hypothermia.</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
-			<li Class="RimFantasy.WeaponEffect">
+			<li Class="RimFantasy.WeaponEffect_Multiple">
 				<effectChance>0.25</effectChance>
-				<effectDamage>Frostbite</effectDamage>
-				<baseDamageValue>4</baseDamageValue>
-				<fleckDefOnTarget>RF_Fleck_BlastAquamarine_Round</fleckDefOnTarget>
-			</li>
-			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
-				<effectChance>0.25</effectChance>
-				<hediffDef>Hypothermia</hediffDef>
-				<severityOffset>-0.10</severityOffset> <!--5% above Serious -->
+				<weaponEffects>
+					<li Class="RimFantasy.WeaponEffect">
+						<effectDamage>Frostbite</effectDamage>
+						<baseDamageValue>4</baseDamageValue>
+						<fleckDefOnTarget>RF_Fleck_BlastAquamarine_Round</fleckDefOnTarget>
+					</li>
+					<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+						<hediffDef>Hypothermia</hediffDef>
+						<severityOffset>-0.10</severityOffset> <!--5% above Serious -->
+					</li>
+				</weaponEffects>
 			</li>
 		</weaponEffects>
 		<commonality>1</commonality>
@@ -51,16 +57,19 @@
 		<description>Enchanted with higher ice magic, this weapon can sometimes unleash a powerful wave of magical energy and may cause hypothermia.</description>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
-			<li Class="RimFantasy.WeaponEffect">
+			<li Class="RimFantasy.WeaponEffect_Multiple">
 				<effectChance>0.20</effectChance>
-				<effectDamage>Frostbite</effectDamage>
-				<baseDamageValue>6</baseDamageValue>
-				<fleckDefOnTarget>RF_Fleck_BlastAquamarine_Round</fleckDefOnTarget>
-			</li>
-			<li Class="RimFantasy.WeaponEffect_ApplyHediff">
-				<effectChance>0.20</effectChance>
-				<hediffDef>Hypothermia</hediffDef>
-				<severityOffset>0.15</severityOffset> <!--3% above Extreme -->
+				<weaponEffects>
+					<li Class="RimFantasy.WeaponEffect">
+						<effectDamage>Frostbite</effectDamage>
+						<baseDamageValue>6</baseDamageValue>
+						<fleckDefOnTarget>RF_Fleck_BlastAquamarine_Round</fleckDefOnTarget>
+					</li>
+					<li Class="RimFantasy.WeaponEffect_ApplyHediff">
+						<hediffDef>Hypothermia</hediffDef>
+						<severityOffset>0.15</severityOffset> <!--3% above Extreme -->
+					</li>
+				</weaponEffects>
 			</li>
 		</weaponEffects>
 		<commonality>0.25</commonality>

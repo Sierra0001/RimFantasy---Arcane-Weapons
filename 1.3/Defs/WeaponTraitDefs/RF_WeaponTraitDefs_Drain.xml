@@ -11,12 +11,13 @@
 				<effectChance>0.9</effectChance>
 				<weaponEffects>
 					<li Class="RimFantasy.WeaponEffect_Drain">
-						<hpToDrain>2~4</hpToDrain>
+						<hpToDrain>2~4</hpToDrain> <!-- Was 2~4 -->
 						<drainDamage>RF_DrainDamage</drainDamage>
 						<fleckDefOnTarget>RF_Fleck_BlastAmethyst_Round</fleckDefOnTarget>
 					</li>
 					<li Class="RimFantasy.WeaponEffect_Heal">
 						<hpToHeal>1~2</hpToHeal>
+						<fleckDefOnSelf>RF_Fleck_BlastPeridot_Round</fleckDefOnSelf>
 					</li>
 				</weaponEffects>
 			</li>
@@ -41,6 +42,7 @@
 					</li>
 					<li Class="RimFantasy.WeaponEffect_Heal">
 						<hpToHeal>2~3</hpToHeal>
+						<fleckDefOnSelf>RF_Fleck_BlastPeridot_Round</fleckDefOnSelf>
 					</li>
 				</weaponEffects>
 			</li>
@@ -65,6 +67,7 @@
 					</li>
 					<li Class="RimFantasy.WeaponEffect_Heal">
 						<hpToHeal>3~4</hpToHeal>
+						<fleckDefOnSelf>RF_Fleck_BlastPeridot_Round</fleckDefOnSelf>
 					</li>
 				</weaponEffects>
 			</li>

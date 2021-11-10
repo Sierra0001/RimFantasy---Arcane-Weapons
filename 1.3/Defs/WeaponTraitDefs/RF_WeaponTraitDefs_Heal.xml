@@ -10,7 +10,7 @@
 			<li Class="RimFantasy.WeaponEffect_Heal">
 				<effectChance>0.9</effectChance>
 				<hpToHeal>2~5</hpToHeal>
-				<fleckDefOnTarget>RF_Fleck_BlastPeridot_Round</fleckDefOnTarget> <!-- Reminder: Ask Taran for fleckDefOnSelf -->
+				<fleckDefOnSelf>RF_Fleck_BlastPeridot_Round</fleckDefOnSelf>
 			</li>
 		</weaponEffects>
 		<commonality>1.25</commonality>
@@ -26,7 +26,7 @@
 			<li Class="RimFantasy.WeaponEffect_Heal">
 				<effectChance>0.9</effectChance>
 				<hpToHeal>4~7</hpToHeal>
-				<fleckDefOnTarget>RF_Fleck_BlastPeridot_Round</fleckDefOnTarget>
+				<fleckDefOnSelf>RF_Fleck_BlastPeridot_Round</fleckDefOnSelf>
 			</li>
 		</weaponEffects>
 		<commonality>1</commonality>
@@ -42,7 +42,7 @@
 			<li Class="RimFantasy.WeaponEffect_Heal">
 				<effectChance>0.9</effectChance>
 				<hpToHeal>6~9</hpToHeal>
-				<fleckDefOnTarget>RF_Fleck_BlastPeridot_Round</fleckDefOnTarget>
+				<fleckDefOnSelf>RF_Fleck_BlastPeridot_Round</fleckDefOnSelf>
 			</li>
 		</weaponEffects>
 		<commonality>0.25</commonality>

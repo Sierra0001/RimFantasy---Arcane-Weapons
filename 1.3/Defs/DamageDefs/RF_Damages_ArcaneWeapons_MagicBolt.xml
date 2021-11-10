@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <DamageDef Name="Arrow">
+    <DamageDef>
         <defName>RF_MagicBolt</defName>
         <label>magic bolt</label>
         <workerClass>DamageWorker_AddInjury</workerClass>

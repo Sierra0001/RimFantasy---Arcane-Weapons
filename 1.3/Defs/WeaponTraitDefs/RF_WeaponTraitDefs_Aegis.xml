@@ -9,7 +9,8 @@
 		<isShield>true</isShield>
 		<shieldRechargeRate>0.10</shieldRechargeRate>
 		<shieldEnergyMax>1.1</shieldEnergyMax>
-		<shieldTexPath>Other/ShieldBubble</shieldTexPath>
+		<shieldTexPath>Other/RF_ShieldBubble</shieldTexPath>
+		<shieldTexStuffPostfix>true</shieldTexStuffPostfix>
 		<shieldCombatRecovery>false</shieldCombatRecovery>
 		<deflectMeleeChance>0.50</deflectMeleeChance>
 		<deflectRangeChance>0.50</deflectRangeChance>
@@ -27,7 +28,8 @@
 		<isShield>true</isShield>
 		<shieldRechargeRate>0.10</shieldRechargeRate>
 		<shieldEnergyMax>1.5</shieldEnergyMax>
-		<shieldTexPath>Other/ShieldBubble</shieldTexPath>
+		<shieldTexPath>Other/RF_ShieldBubble</shieldTexPath>
+		<shieldTexStuffPostfix>true</shieldTexStuffPostfix>
 		<shieldCombatRecovery>false</shieldCombatRecovery>
 		<deflectMeleeChance>0.50</deflectMeleeChance>
 		<deflectRangeChance>0.50</deflectRangeChance>
@@ -45,7 +47,8 @@
 		<isShield>true</isShield>
 		<shieldRechargeRate>0.12</shieldRechargeRate>
 		<shieldEnergyMax>1.85</shieldEnergyMax>
-		<shieldTexPath>Other/ShieldBubble</shieldTexPath>
+		<shieldTexPath>Other/RF_ShieldBubble</shieldTexPath>
+		<shieldTexStuffPostfix>true</shieldTexStuffPostfix>
 		<shieldCombatRecovery>true</shieldCombatRecovery>
 		<deflectMeleeChance>0.50</deflectMeleeChance>
 		<deflectRangeChance>0.50</deflectRangeChance>

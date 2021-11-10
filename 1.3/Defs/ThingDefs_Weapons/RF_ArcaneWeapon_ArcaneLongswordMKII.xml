@@ -155,6 +155,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+		<modExtensions>
+			<li Class="RimFantasy.RimFantasyExtension">
+				<stuffKey>Emerald</stuffKey>
+			</li>
+		</modExtensions>
     </ThingDef>
 
     <!--========== Aquamarine Longsword ==========-->

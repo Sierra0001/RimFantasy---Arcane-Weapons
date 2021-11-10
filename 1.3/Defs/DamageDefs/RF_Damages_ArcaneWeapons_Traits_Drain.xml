@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <DamageDef Name="RF_DrainBase">
-    <defName>RF_DrainBase</defName> <!-- Was Cut -->
+  <DamageDef Name="RF_DrainDamage"> <!-- Was RF_DrainBase -->
+    <defName>RF_DrainDamage</defName> <!-- Was Cut -->  <!-- Was RF_DrainBase -->
     <label>drain</label> <!-- Was cut -->
-    <workerClass>DamageWorker_Cut</workerClass>
+    <workerClass>DamageWorker_AddInjury</workerClass> <!-- Was DamageWorker_Cut -->
     <externalViolence>true</externalViolence>
     <deathMessage>{0} has been drained to death.</deathMessage>
     <hediff>RF_DrainDamage</hediff> <!-- Was Cut -->
@@ -25,7 +25,7 @@
     <cutCleaveBonus>1.4</cutCleaveBonus>
   </DamageDef>
 
-  <DamageDef ParentName="RF_DrainBase">
+  <!--<DamageDef ParentName="RF_DrainBase">
     <defName>RF_DrainDamage</defName>
     <label>drain</label>
     <workerClass>DamageWorker_AddInjury</workerClass>
@@ -36,7 +36,7 @@
     <canInterruptJobs>false</canInterruptJobs>
     <impactSoundType />
     <armorCategory />
-  </DamageDef>
+  </DamageDef>-->
 
   <HediffDef ParentName="InjuryBase">
     <defName>RF_DrainDamage</defName>

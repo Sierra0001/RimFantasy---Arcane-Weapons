@@ -14,7 +14,7 @@
     <impactSoundType>Slice</impactSoundType>
     <armorCategory>Heat</armorCategory> <!-- Was Sharp -->
     <overkillPctToDestroyPart>0~0.1</overkillPctToDestroyPart>
-    <!--<cutExtraTargetsCurve>
+    <cutExtraTargetsCurve>
       <points>
         <li>0, 0</li>
         <li>0.6, 1</li>
@@ -22,7 +22,7 @@
         <li>1, 3</li>
       </points>
     </cutExtraTargetsCurve>
-    <cutCleaveBonus>1.4</cutCleaveBonus>-->
+    <cutCleaveBonus>1.4</cutCleaveBonus>
   </DamageDef>
 
   <DamageDef ParentName="RF_DrainBase">

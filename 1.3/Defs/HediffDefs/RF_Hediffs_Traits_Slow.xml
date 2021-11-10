@@ -6,20 +6,20 @@
     <label>bradykinesia (Minor)</label>
     <description>Combat reflexes slowed down by a magical force.</description>
     <maxSeverity>1</maxSeverity>
-	<hediffClass>HediffWithComps</hediffClass>
+	  <hediffClass>HediffWithComps</hediffClass>
     <comps>
-      <li Class="HediffCompProperties_Disappears">
+      <!--<li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>45000~120000</disappearsAfterTicks>
-      </li>
+      </li>-->
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.8</severityPerDay>
+        <severityPerDay>-1.75</severityPerDay>
       </li>
     </comps>
-	<modExtensions>
-		<li Class="RimFantasy.HediffExtension">
-			<cooldownMultiplier>1.2</cooldownMultiplier>
-		</li>
-	</modExtensions>
+	  <modExtensions>
+      <li Class="RimFantasy.HediffExtension">
+        <cooldownMultiplier>1.2</cooldownMultiplier>
+      </li>
+    </modExtensions>
   </HediffDef>
 
   <HediffDef>
@@ -27,20 +27,20 @@
     <label>bradykinesia (Major)</label>
     <description>Combat reflexes slowed down by a magical force.</description>
     <maxSeverity>1</maxSeverity>
-	<hediffClass>HediffWithComps</hediffClass>
+    <hediffClass>HediffWithComps</hediffClass>
     <comps>
-      <li Class="HediffCompProperties_Disappears">
+      <!--<li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>45000~120000</disappearsAfterTicks>
-      </li>
+      </li>-->
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.8</severityPerDay>
+        <severityPerDay>-1.75</severityPerDay>
       </li>
     </comps>
-  <modExtensions>
-    <li Class="RimFantasy.HediffExtension">
-      <cooldownMultiplier>1.5</cooldownMultiplier>
-    </li>
-  </modExtensions>
+    <modExtensions>
+      <li Class="RimFantasy.HediffExtension">
+        <cooldownMultiplier>1.5</cooldownMultiplier>
+      </li>
+    </modExtensions>
   </HediffDef>
 
   <HediffDef>
@@ -50,11 +50,11 @@
     <maxSeverity>1</maxSeverity>
 	<hediffClass>HediffWithComps</hediffClass>
     <comps>
-      <li Class="HediffCompProperties_Disappears">
+      <!--<li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>45000~120000</disappearsAfterTicks>
-      </li>
+      </li>-->
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.8</severityPerDay>
+        <severityPerDay>-1.75</severityPerDay>
       </li>
     </comps>
   <modExtensions>

@@ -1,13 +1,16 @@
 # RimFantasy - Arcane Weapons
 
-This mod adds X new magical weapons that hold untold power.
+Some use magical gemstones to warm their homes.
+Some use magical gemstones to light their paths.
+some use magical gemstones to craft deadly weapons.
 
-These weapons are infused with magic and can only be wielded by one person. Expensive to make as they are difficult to craft, much resource have to be invested into their creation and impure materials are lost in the process.
+Expensive to make as they are difficult to craft, many gemstones are spent during the refinement and enchantment process. The resulting weapons are infused with powerful magic and, in the hands of the right wielder can make them neigh unstoppable.
 
 ### Features
 
-- x Arcane weapons, each with its unique quirks
-- 2 Research
+- 8 Arcane weapons (11 variants)
+- 15 Weapon traits (3 variants each)
+- 2 Researches
 
 ### Balance
 
@@ -28,9 +31,11 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Credits
 
-SirLalaPyon for his amazing, high-quality vanilla styled art.
+- Taranchuk for his C# code magic, without which this mod would not exist.
+- Steve o.O for all the smexy weapon textures.
+- SirLalaPyon for the preview art.
 
 ### Latest Changes
 
-- [RimWorld 1.3] RimWorld 1.3 Ready. (v1.0)
-- [Release] Initial release. (v1.0)
+- [RimWorld 1.3] RimWorld 1.3 Ready.
+- [Release] Initial release.

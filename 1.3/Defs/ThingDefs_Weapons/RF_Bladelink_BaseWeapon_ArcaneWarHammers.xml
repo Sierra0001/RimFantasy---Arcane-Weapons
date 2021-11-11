@@ -48,51 +48,42 @@
 			<li Class="RimFantasy.CompProperties_ArcaneWeapon">
 				<biocodeOnEquip>false</biocodeOnEquip>
 				<weaponTraitsPool>
-					<li>RF_MinorBlaze</li>
-					<li>RF_Blaze</li>
-					<li>RF_MajorBlaze</li>
-					<li>RF_MinorScorch</li>
-					<li>RF_Scorch</li>
-					<li>RF_MajorScorch</li>
-					<li>RF_MinorFreeze</li>
-					<li>RF_Freeze</li>
-					<li>RF_MajorFreeze</li>
-					<li>RF_MinorBane</li>
-					<li>RF_Bane</li>
-					<li>RF_MajorBane</li>
-					<li>RF_MinorHeal</li> <!-- Issue - User sometimes damaged instead of healed --> <!-- Remember: effectChance adjusted for debug -->
-					<li>RF_Heal</li> <!-- Issue - User sometimes damaged instead of healed --> <!-- Remember: effectChance adjusted for debug -->
-					<li>RF_MajorHeal</li> <!-- Issue - User sometimes damaged instead of healed --> <!-- Remember: effectChance adjusted for debug -->
-					<li>RF_MinorDrain</li> <!-- Issue1: Same as RF_Heal since comp is being used --> <!-- Issue2: Drain Damage Drains from every bodypart instead of random --> <!-- Remember: effectChance adjusted for debug -->
-					<li>RF_Drain</li> <!-- Issue1: Same as RF_Heal since comp is being used --> <!-- Issue2: Drain Damage Drains from every bodypart instead of random --> <!-- Remember: effectChance adjusted for debug -->
-					<li>RF_MajorDrain</li> <!-- Issue1: Same as RF_Heal since comp is being used --> <!-- Issue2: Drain Damage Drains from every bodypart instead of random --> <!-- Remember: effectChance adjusted for debug -->
 					<li>RF_MinorShock</li>
 					<li>RF_Shock</li>
 					<li>RF_MajorShock</li>
-					<li>RF_MinorSlow</li> <!-- Issue - Missing Duration Limiter --> <!-- Remember: effectChance adjusted for debug -->
-					<li>RF_Slow</li> <!-- Issue - Missing Duration Limiter --> <!-- Remember: effectChance adjusted for debug -->
-					<li>RF_MajorSlow</li> <!-- Issue - Missing Duration Limiter --> <!-- Remember: effectChance adjusted for debug -->
+					<li>RF_MinorHeal</li>
+					<li>RF_Heal</li>
+					<li>RF_MajorHeal</li>
+					<li>RF_MinorBane</li>
+					<li>RF_Bane</li>
+					<li>RF_MajorBane</li>
+					<li>RF_MinorDrain</li>
+					<li>RF_Drain</li>
+					<li>RF_MajorDrain</li>
 					<li>RF_MinorSlash</li>
 					<li>RF_Slash</li>
 					<li>RF_MajorSlash</li>
 					<li>RF_MinorSlam</li>
 					<li>RF_Slam</li>
 					<li>RF_MajorSlam</li>
-					<li>RF_MinorAegis</li>
-					<li>RF_Aegis</li>
-					<li>RF_MajorAegis</li>
 					<li>RF_MinorParry</li>
 					<li>RF_Parry</li>
 					<li>RF_MajorParry</li>
-					<li>RF_MinorDeflection</li>
-					<li>RF_Deflection</li>
-					<li>RF_MajorDeflection</li>
+					<li>RF_MinorDeflect</li>
+					<li>RF_Deflect</li>
+					<li>RF_MajorDeflect</li>
 					<li>RF_MinorWard</li>
 					<li>RF_Ward</li>
 					<li>RF_MajorWard</li>
+					<li>RF_MinorWarriorsShield</li>
+					<li>RF_WarriorsShield</li>
+					<li>RF_MajorWarriorsShield</li>
+					<li>RF_MinorMagiciansShield</li>
+					<li>RF_MagiciansShield</li>
+					<li>RF_MajorMagiciansShield</li>
 				</weaponTraitsPool>
 				<minWeaponTraits>1</minWeaponTraits>
-				<maxWeaponTraits>1</maxWeaponTraits>
+				<maxWeaponTraits>2</maxWeaponTraits>
 			</li>
 			<li Class="CompProperties_GeneratedName">
 				<nameMaker>RF_Namer_ArcaneWeapons</nameMaker>

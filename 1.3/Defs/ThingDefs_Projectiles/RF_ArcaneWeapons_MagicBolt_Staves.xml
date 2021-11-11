@@ -2,12 +2,12 @@
 <Defs>
 
     <!--========== Magic Bolt Projectiles  ==========-->
-    <!--========== Used for all wands and staves.  ==========-->
+    <!--========== Used for all staves.  ==========-->
 
     <!--========== Diamond Magic Bolt ==========-->
 
     <ThingDef ParentName="BaseProjectileNeolithic">
-        <defName>RF_MagicBolt_Diamond</defName>
+        <defName>RF_MagicBolt_Staff_Diamond</defName>
         <label>diamond wand effect</label>
         <graphicData>
             <texPath>Things/Projectile/RF_MagicBolt_Diamond</texPath>
@@ -17,7 +17,7 @@
         </graphicData>
         <projectile>
             <damageDef>RF_MagicBolt</damageDef>
-            <damageAmountBase>11</damageAmountBase>
+            <damageAmountBase>10</damageAmountBase>
             <stoppingPower>1</stoppingPower>
             <armorPenetrationBase>0.15</armorPenetrationBase>
             <speed>40</speed>
@@ -27,7 +27,7 @@
     <!--========== Ruby Magic Bolt ==========-->
 
     <ThingDef ParentName="BaseProjectileNeolithic">
-        <defName>RF_MagicBolt_Ruby</defName>
+        <defName>RF_MagicBolt_Staff_Ruby</defName>
         <label>ruby wand effect</label>
         <graphicData>
             <texPath>Things/Projectile/RF_MagicBolt_Ruby</texPath>
@@ -37,7 +37,7 @@
         </graphicData>
         <projectile>
             <damageDef>RF_MagicBolt</damageDef>
-            <damageAmountBase>11</damageAmountBase>
+            <damageAmountBase>10</damageAmountBase>
             <stoppingPower>1</stoppingPower>
             <armorPenetrationBase>0.15</armorPenetrationBase>
             <speed>40</speed>
@@ -47,7 +47,7 @@
     <!--========== Carnelian Magic Bolt ==========-->
 
     <ThingDef ParentName="BaseProjectileNeolithic">
-        <defName>RF_MagicBolt_Carnelian</defName>
+        <defName>RF_MagicBolt_Staff_Carnelian</defName>
         <label>carnelian wand effect</label>
         <graphicData>
             <texPath>Things/Projectile/RF_MagicBolt_Carnelian</texPath>
@@ -57,7 +57,7 @@
         </graphicData>
         <projectile>
             <damageDef>RF_MagicBolt</damageDef>
-            <damageAmountBase>11</damageAmountBase>
+            <damageAmountBase>10</damageAmountBase>
             <stoppingPower>1</stoppingPower>
             <armorPenetrationBase>0.15</armorPenetrationBase>
             <speed>40</speed>
@@ -67,7 +67,7 @@
     <!--========== Citrine Magic Bolt ==========-->
 
     <ThingDef ParentName="BaseProjectileNeolithic">
-        <defName>RF_MagicBolt_Citrine</defName>
+        <defName>RF_MagicBolt_Staff_Citrine</defName>
         <label>citrine wand effect</label>
         <graphicData>
             <texPath>Things/Projectile/RF_MagicBolt_Citrine</texPath>
@@ -77,7 +77,7 @@
         </graphicData>
         <projectile>
             <damageDef>RF_MagicBolt</damageDef>
-            <damageAmountBase>11</damageAmountBase>
+            <damageAmountBase>10</damageAmountBase>
             <stoppingPower>1</stoppingPower>
             <armorPenetrationBase>0.15</armorPenetrationBase>
             <speed>40</speed>
@@ -87,7 +87,7 @@
     <!--========== Peridot Magic Bolt ==========-->
 
     <ThingDef ParentName="BaseProjectileNeolithic">
-        <defName>RF_MagicBolt_Peridot</defName>
+        <defName>RF_MagicBolt_Staff_Peridot</defName>
         <label>peridot wand effect</label>
         <graphicData>
             <texPath>Things/Projectile/RF_MagicBolt_Peridot</texPath>
@@ -97,7 +97,7 @@
         </graphicData>
         <projectile>
             <damageDef>RF_MagicBolt</damageDef>
-            <damageAmountBase>11</damageAmountBase>
+            <damageAmountBase>10</damageAmountBase>
             <stoppingPower>1</stoppingPower>
             <armorPenetrationBase>0.15</armorPenetrationBase>
             <speed>40</speed>
@@ -107,7 +107,7 @@
     <!--========== Emerald Magic Bolt ==========-->
 
     <ThingDef ParentName="BaseProjectileNeolithic">
-        <defName>RF_MagicBolt_Emerald</defName>
+        <defName>RF_MagicBolt_Staff_Emerald</defName>
         <label>emerald wand effect</label>
         <graphicData>
             <texPath>Things/Projectile/RF_MagicBolt_Emerald</texPath>
@@ -117,7 +117,7 @@
         </graphicData>
         <projectile>
             <damageDef>RF_MagicBolt</damageDef>
-            <damageAmountBase>1</damageAmountBase>
+            <damageAmountBase>10</damageAmountBase>
             <stoppingPower>1</stoppingPower>
             <armorPenetrationBase>0.15</armorPenetrationBase>
             <speed>40</speed>
@@ -127,7 +127,7 @@
     <!--========== Aquamarine Magic Bolt ==========-->
 
     <ThingDef ParentName="BaseProjectileNeolithic">
-        <defName>RF_MagicBolt_Aquamarine</defName>
+        <defName>RF_MagicBolt_Staff_Aquamarine</defName>
         <label>aquamarine wand effect</label>
         <graphicData>
             <texPath>Things/Projectile/RF_MagicBolt_Aquamarine</texPath>
@@ -137,7 +137,7 @@
         </graphicData>
         <projectile>
             <damageDef>RF_MagicBolt</damageDef>
-            <damageAmountBase>11</damageAmountBase>
+            <damageAmountBase>10</damageAmountBase>
             <stoppingPower>1</stoppingPower>
             <armorPenetrationBase>0.15</armorPenetrationBase>
             <speed>40</speed>
@@ -147,7 +147,7 @@
     <!--========== Sapphire Magic Bolt ==========-->
 
     <ThingDef ParentName="BaseProjectileNeolithic">
-        <defName>RF_MagicBolt_Sapphire</defName>
+        <defName>RF_MagicBolt_Staff_Sapphire</defName>
         <label>sapphire wand effect</label>
         <graphicData>
             <texPath>Things/Projectile/RF_MagicBolt_Sapphire</texPath>
@@ -157,7 +157,7 @@
         </graphicData>
         <projectile>
             <damageDef>RF_MagicBolt</damageDef>
-            <damageAmountBase>11</damageAmountBase>
+            <damageAmountBase>10</damageAmountBase>
             <stoppingPower>1</stoppingPower>
             <armorPenetrationBase>0.15</armorPenetrationBase>
             <speed>40</speed>
@@ -167,7 +167,7 @@
     <!--========== Amethyst Magic Bolt ==========-->
 
     <ThingDef ParentName="BaseProjectileNeolithic">
-        <defName>RF_MagicBolt_Amethyst</defName>
+        <defName>RF_MagicBolt_Staff_Amethyst</defName>
         <label>amethyst wand effect</label>
         <graphicData>
             <texPath>Things/Projectile/RF_MagicBolt_Amethyst</texPath>
@@ -177,7 +177,7 @@
         </graphicData>
         <projectile>
             <damageDef>RF_MagicBolt</damageDef>
-            <damageAmountBase>11</damageAmountBase>
+            <damageAmountBase>10</damageAmountBase>
             <stoppingPower>1</stoppingPower>
             <armorPenetrationBase>0.15</armorPenetrationBase>
             <speed>40</speed>
@@ -187,7 +187,7 @@
     <!--========== Kunzite Magic Bolt ==========-->
 
     <ThingDef ParentName="BaseProjectileNeolithic">
-        <defName>RF_MagicBolt_Kunzite</defName>
+        <defName>RF_MagicBolt_Staff_Kunzite</defName>
         <label>kunzite wand effect</label>
         <graphicData>
             <texPath>Things/Projectile/RF_MagicBolt_Kunzite</texPath>
@@ -197,7 +197,7 @@
         </graphicData>
         <projectile>
             <damageDef>RF_MagicBolt</damageDef>
-            <damageAmountBase>11</damageAmountBase>
+            <damageAmountBase>10</damageAmountBase>
             <stoppingPower>1</stoppingPower>
             <armorPenetrationBase>0.15</armorPenetrationBase>
             <speed>40</speed>
@@ -207,7 +207,7 @@
     <!--========== Onyx Magic Bolt ==========-->
 
     <ThingDef ParentName="BaseProjectileNeolithic">
-        <defName>RF_MagicBolt_Onyx</defName>
+        <defName>RF_MagicBolt_Staff_Onyx</defName>
         <label>onyx wand effect</label>
         <graphicData>
             <texPath>Things/Projectile/RF_MagicBolt_Onyx</texPath>
@@ -217,7 +217,7 @@
         </graphicData>
         <projectile>
             <damageDef>RF_MagicBolt</damageDef>
-            <damageAmountBase>11</damageAmountBase>
+            <damageAmountBase>10</damageAmountBase>
             <stoppingPower>1</stoppingPower>
             <armorPenetrationBase>0.15</armorPenetrationBase>
             <speed>40</speed>

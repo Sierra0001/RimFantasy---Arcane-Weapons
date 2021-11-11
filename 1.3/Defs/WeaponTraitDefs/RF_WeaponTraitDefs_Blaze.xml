@@ -5,10 +5,15 @@
 		<defName>RF_MinorBlaze</defName>
 		<label>minor blaze</label>
 		<description>Enchanted with lower fire magic, this weapon can sometimes unleash a weak wave of magical energy and may set a target on fire.</description>
+    <exclusionTags>
+			<li>RF_MinorBlaze</li>
+			<li>RF_Blaze</li>
+			<li>RF_MajorBlaze</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_SetOnFire">
-				<effectChance>0.25</effectChance>
+				<effectChance>0.20</effectChance>
 				<effectDamage>Burn</effectDamage>
 				<baseDamageValue>2</baseDamageValue>
 				<fleckDefOnTarget>RF_Fleck_BlastRuby_Round</fleckDefOnTarget>
@@ -24,10 +29,15 @@
 		<defName>RF_Blaze</defName>
 		<label>blaze</label>
 		<description>Enchanted with fire magic, this weapon can sometimes unleash a wave of magical energy and may set a target on fire.</description>
+    <exclusionTags>
+			<li>RF_MinorBlaze</li>
+			<li>RF_Blaze</li>
+			<li>RF_MajorBlaze</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_SetOnFire">
-				<effectChance>0.25</effectChance>
+				<effectChance>0.22</effectChance>
 				<effectDamage>Burn</effectDamage>
 				<baseDamageValue>4</baseDamageValue>
 				<fleckDefOnTarget>RF_Fleck_BlastRuby_Round</fleckDefOnTarget>
@@ -43,10 +53,15 @@
 		<defName>RF_MajorBlaze</defName>
 		<label>major blaze</label>
 		<description>Enchanted with higher fire magic, this weapon can sometimes unleash a powerful wave of magical energy and may set a target on fire.</description>
+    <exclusionTags>
+			<li>RF_MinorBlaze</li>
+			<li>RF_Blaze</li>
+			<li>RF_MajorBlaze</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_SetOnFire">
-				<effectChance>0.20</effectChance>
+				<effectChance>0.25</effectChance>
 				<effectDamage>Burn</effectDamage>
 				<baseDamageValue>6</baseDamageValue>
 				<fleckDefOnTarget>RF_Fleck_BlastRuby_Round</fleckDefOnTarget>

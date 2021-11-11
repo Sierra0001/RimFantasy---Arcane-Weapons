@@ -5,10 +5,15 @@
 		<defName>RF_MinorSlash</defName>
 		<label>minor slash</label>
 		<description>Enchanted with lower battle magic, this weapon can sometimes unleash a weak wave of magical energy around the target.</description>
+    <exclusionTags>
+			<li>RF_MinorSlash</li>
+			<li>RF_Slash</li>
+			<li>RF_MajorSlash</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Slash">
-				<effectChance>0.25</effectChance>
+				<effectChance>0.20</effectChance>
 				<baseDamageValue>2</baseDamageValue>
 				<fleckDefOnTarget>RF_Fleck_BlastDiamond_Round</fleckDefOnTarget>
 				<amountOfEnemies>1~2</amountOfEnemies>
@@ -24,10 +29,15 @@
 		<defName>RF_Slash</defName>
 		<label>slash</label>
 		<description>Enchanted with battle magic, this weapon can sometimes unleash a wave of magical energy around the target.</description>
+    <exclusionTags>
+			<li>RF_MinorSlash</li>
+			<li>RF_Slash</li>
+			<li>RF_MajorSlash</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Slash">
-				<effectChance>0.25</effectChance>
+				<effectChance>0.22</effectChance>
 				<baseDamageValue>4</baseDamageValue>
 				<fleckDefOnTarget>RF_Fleck_BlastDiamond_Round</fleckDefOnTarget>
 				<amountOfEnemies>2</amountOfEnemies>
@@ -43,10 +53,15 @@
 		<defName>RF_MajorSlash</defName>
 		<label>major slash</label>
 		<description>Enchanted with higher battle magic, this weapon can sometimes unleash a powerful wave of magical energy around the target.</description>
+    <exclusionTags>
+			<li>RF_MinorSlash</li>
+			<li>RF_Slash</li>
+			<li>RF_MajorSlash</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Slash">
-				<effectChance>0.20</effectChance>
+				<effectChance>0.25</effectChance>
 				<baseDamageValue>8</baseDamageValue>
 				<fleckDefOnTarget>RF_Fleck_BlastDiamond_Round</fleckDefOnTarget>
 				<amountOfEnemies>2~3</amountOfEnemies>

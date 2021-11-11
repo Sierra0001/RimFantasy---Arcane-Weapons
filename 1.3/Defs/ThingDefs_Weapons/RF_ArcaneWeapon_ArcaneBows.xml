@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!--========== Diamond Wand ==========-->
+    <!--========== Diamond Bow ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
-        <defName>RF_DiamondStaff</defName>
-        <label>diamond staff</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_DiamondBow</defName>
+        <label>diamond bow</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_DiamondStaff</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_DiamondBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -29,23 +29,26 @@
             <li>
               <verbClass>Verb_Shoot</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
-              <defaultProjectile>RF_MagicBolt_Diamond</defaultProjectile>
-              <warmupTime>1.8</warmupTime>
-              <range>27</range>
-              <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>6</burstShotCount>
-              <soundCast>Shot_ChargeRifle</soundCast>
+              <defaultProjectile>RF_MagicArrow_Diamond</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
             </li>
         </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Diamond</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Ruby Wand ==========-->
+    <!--========== Ruby Bow ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
-        <defName>RF_RubyStaff</defName>
-        <label>ruby staff</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_RubyBow</defName>
+        <label>ruby bow</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_RubyStaff</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_RubyBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -67,23 +70,26 @@
             <li>
               <verbClass>Verb_Shoot</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
-              <defaultProjectile>RF_MagicBolt_Ruby</defaultProjectile>
-              <warmupTime>1.8</warmupTime>
-              <range>27</range>
-              <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>6</burstShotCount>
-              <soundCast>Shot_ChargeRifle</soundCast>
+              <defaultProjectile>RF_MagicArrow_Ruby</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
             </li>
         </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Ruby</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Carnelian Wand ==========-->
+    <!--========== Carnelian Bow ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
-        <defName>RF_CarnelianStaff</defName>
-        <label>carnelian staff</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_CarnelianBow</defName>
+        <label>carnelian bow</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_CarnelianStaff</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_CarnelianBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -105,23 +111,26 @@
             <li>
               <verbClass>Verb_Shoot</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
-              <defaultProjectile>RF_MagicBolt_Carnelian</defaultProjectile>
-              <warmupTime>1.8</warmupTime>
-              <range>27</range>
-              <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>6</burstShotCount>
-              <soundCast>Shot_ChargeRifle</soundCast>
+              <defaultProjectile>RF_MagicArrow_Carnelian</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
             </li>
         </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Carnelian</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Citrine Wand ==========-->
+    <!--========== Citrine Bow ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
-        <defName>RF_CitrineStaff</defName>
-        <label>citrine staff</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_CitrineBow</defName>
+        <label>citrine bow</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_CitrineStaff</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_CitrineBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -143,23 +152,26 @@
             <li>
               <verbClass>Verb_Shoot</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
-              <defaultProjectile>RF_MagicBolt_Citrine</defaultProjectile>
-              <warmupTime>1.8</warmupTime>
-              <range>27</range>
-              <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>6</burstShotCount>
-              <soundCast>Shot_ChargeRifle</soundCast>
+              <defaultProjectile>RF_MagicArrow_Citrine</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
             </li>
         </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Citrine</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Peridot Wand ==========-->
+    <!--========== Peridot Bow ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
-        <defName>RF_PeridotStaff</defName>
-        <label>peridot staff</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_PeridotBow</defName>
+        <label>peridot bow</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_PeridotStaff</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_PeridotBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -181,23 +193,26 @@
             <li>
               <verbClass>Verb_Shoot</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
-              <defaultProjectile>RF_MagicBolt_Peridot</defaultProjectile>
-              <warmupTime>1.8</warmupTime>
-              <range>27</range>
-              <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>6</burstShotCount>
-              <soundCast>Shot_ChargeRifle</soundCast>
+              <defaultProjectile>RF_MagicArrow_Peridot</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
             </li>
         </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Peridot</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Emerald Wand ==========-->
+    <!--========== Emerald Bow ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
-        <defName>RF_EmeraldStaff</defName>
-        <label>emerald staff</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_EmeraldBow</defName>
+        <label>emerald bow</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_EmeraldStaff</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_EmeraldBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -219,23 +234,26 @@
             <li>
               <verbClass>Verb_Shoot</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
-              <defaultProjectile>RF_MagicBolt_Emerald</defaultProjectile>
-              <warmupTime>1.8</warmupTime>
-              <range>27</range>
-              <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>6</burstShotCount>
-              <soundCast>Shot_ChargeRifle</soundCast>
+              <defaultProjectile>RF_MagicArrow_Emerald</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
             </li>
         </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Emerald</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Aquamarine Wand ==========-->
+    <!--========== Aquamarine Bow ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
-        <defName>RF_AquamarineStaff</defName>
-        <label>aquamarine staff</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_AquamarineBow</defName>
+        <label>aquamarine bow</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_AquamarineStaff</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_AquamarineBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -257,23 +275,26 @@
             <li>
               <verbClass>Verb_Shoot</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
-              <defaultProjectile>RF_MagicBolt_Aquamarine</defaultProjectile>
-              <warmupTime>1.8</warmupTime>
-              <range>27</range>
-              <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>6</burstShotCount>
-              <soundCast>Shot_ChargeRifle</soundCast>
+              <defaultProjectile>RF_MagicArrow_Aquamarine</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
             </li>
         </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Aquamarine</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Sapphire Wand ==========-->
+    <!--========== Sapphire Bow ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
-        <defName>RF_SapphireStaff</defName>
-        <label>sapphire staff</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_SapphireBow</defName>
+        <label>sapphire bow</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_SapphireStaff</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_SapphireBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -295,23 +316,26 @@
             <li>
               <verbClass>Verb_Shoot</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
-              <defaultProjectile>RF_MagicBolt_Sapphire</defaultProjectile>
-              <warmupTime>1.8</warmupTime>
-              <range>27</range>
-              <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>6</burstShotCount>
-              <soundCast>Shot_ChargeRifle</soundCast>
+              <defaultProjectile>RF_MagicArrow_Sapphire</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
             </li>
         </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Sapphire</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Amethyst Wand ==========-->
+    <!--========== Amethyst Bow ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
-        <defName>RF_AmethystStaff</defName>
-        <label>amethyst staff</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_AmethystBow</defName>
+        <label>amethyst bow</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_AmethystStaff</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_AmethystBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -333,23 +357,26 @@
             <li>
               <verbClass>Verb_Shoot</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
-              <defaultProjectile>RF_MagicBolt_Amethyst</defaultProjectile>
-              <warmupTime>1.8</warmupTime>
-              <range>27</range>
-              <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>6</burstShotCount>
-              <soundCast>Shot_ChargeRifle</soundCast>
+              <defaultProjectile>RF_MagicArrow_Amethyst</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
             </li>
         </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Amethyst</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Kunzite Wand ==========-->
+    <!--========== Kunzite Bow ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
-        <defName>RF_KunziteStaff</defName>
-        <label>kunzite staff</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_KunziteBow</defName>
+        <label>kunzite bow</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_KunziteStaff</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_KunziteBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -371,23 +398,26 @@
             <li>
               <verbClass>Verb_Shoot</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
-              <defaultProjectile>RF_MagicBolt_Kunzite</defaultProjectile>
-              <warmupTime>1.8</warmupTime>
-              <range>27</range>
-              <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>6</burstShotCount>
-              <soundCast>Shot_ChargeRifle</soundCast>
+              <defaultProjectile>RF_MagicArrow_Kunzite</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
             </li>
         </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Kunzite</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Onyx Wand ==========-->
+    <!--========== Onyx Bow ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
-        <defName>RF_OnyxStaff</defName>
-        <label>onyx staff</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneBows">
+        <defName>RF_OnyxBow</defName>
+        <label>onyx bow</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_OnyxStaff</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneBows/RF_OnyxBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -409,14 +439,17 @@
             <li>
               <verbClass>Verb_Shoot</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
-              <defaultProjectile>RF_MagicBolt_Onyx</defaultProjectile>
-              <warmupTime>1.8</warmupTime>
-              <range>27</range>
-              <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-              <burstShotCount>6</burstShotCount>
-              <soundCast>Shot_ChargeRifle</soundCast>
+              <defaultProjectile>RF_MagicArrow_Onyx</defaultProjectile>
+              <warmupTime>2.0</warmupTime>
+              <range>32</range>
+              <soundCast>ChargeLance_Fire</soundCast>
             </li>
         </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Onyx</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
 </Defs>

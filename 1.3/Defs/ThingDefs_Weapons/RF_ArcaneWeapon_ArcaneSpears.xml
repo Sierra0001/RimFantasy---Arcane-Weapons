@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!--========== Diamond War Hammer ==========-->
+    <!--========== Diamond Spear ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
-        <defName>RF_DiamondWarHammer</defName>
-        <label>diamond war hammer</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneSpears">
+        <defName>RF_DiamondSpear</defName>
+        <label>diamond spear</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_DiamondWarHammer</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneSpears/RF_DiamondSpear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -25,15 +25,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Diamond</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Ruby War Hammer ==========-->
+    <!--========== Ruby Spear ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
-        <defName>RF_RubyWarHammer</defName>
-        <label>ruby war hammer</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneSpears">
+        <defName>RF_RubySpear</defName>
+        <label>ruby spear</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_RubyWarHammer</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneSpears/RF_RubySpear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -51,15 +56,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Ruby</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Carnelian War Hammer ==========-->
+    <!--========== Carnelian Spear ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
-        <defName>RF_CarnelianWarHammer</defName>
-        <label>carnelian war hammer</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneSpears">
+        <defName>RF_CarnelianSpear</defName>
+        <label>carnelian spear</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_CarnelianWarHammer</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneSpears/RF_CarnelianSpear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -77,15 +87,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Carnelian</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Citrine War Hammer ==========-->
+    <!--========== Citrine Spear ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
-        <defName>RF_CitrineWarHammer</defName>
-        <label>citrine war hammer</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneSpears">
+        <defName>RF_CitrineSpear</defName>
+        <label>citrine spear</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_CitrineWarHammer</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneSpears/RF_CitrineSpear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -103,15 +118,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Citrine</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Peridot War Hammer ==========-->
+    <!--========== Peridot Spear ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
-        <defName>RF_PeridotWarHammer</defName>
-        <label>peridot war hammer</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneSpears">
+        <defName>RF_PeridotSpear</defName>
+        <label>peridot spear</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_PeridotWarHammer</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneSpears/RF_PeridotSpear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -129,15 +149,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Peridot</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Emerald War Hammer ==========-->
+    <!--========== Emerald Spear ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
-        <defName>RF_EmeraldWarHammer</defName>
-        <label>emerald war hammer</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneSpears">
+        <defName>RF_EmeraldSpear</defName>
+        <label>emerald spear</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_EmeraldWarHammer</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneSpears/RF_EmeraldSpear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -155,15 +180,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Emerald</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Aquamarine War Hammer ==========-->
+    <!--========== Aquamarine Spear ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
-        <defName>RF_AquamarineWarHammer</defName>
-        <label>aquamarine war hammer</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneSpears">
+        <defName>RF_AquamarineSpear</defName>
+        <label>aquamarine spear</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_AquamarineWarHammer</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneSpears/RF_AquamarineSpear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -181,15 +211,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Aquamarine</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Sapphire War Hammer ==========-->
+    <!--========== Sapphire Spear ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
-        <defName>RF_SapphireWarHammer</defName>
-        <label>sapphire war hammer</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneSpears">
+        <defName>RF_SapphireSpear</defName>
+        <label>sapphire spear</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_SapphireWarHammer</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneSpears/RF_SapphireSpear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -207,15 +242,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Sapphire</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Amethyst War Hammer ==========-->
+    <!--========== Amethyst Spear ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
-        <defName>RF_AmethystWarHammer</defName>
-        <label>amethyst war hammer</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneSpears">
+        <defName>RF_AmethystSpear</defName>
+        <label>amethyst spear</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_AmethystWarHammer</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneSpears/RF_AmethystSpear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -233,15 +273,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Amethyst</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Kunzite War Hammer ==========-->
+    <!--========== Kunzite Spear ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
-        <defName>RF_KunziteWarHammer</defName>
-        <label>kunzite war hammer</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneSpears">
+        <defName>RF_KunziteSpear</defName>
+        <label>kunzite spear</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_KunziteWarHammer</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneSpears/RF_KunziteSpear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -259,15 +304,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Kunzite</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Onyx War Hammer ==========-->
+    <!--========== Onyx Spear ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneWarHammers">
-        <defName>RF_OnyxWarHammer</defName>
-        <label>onyx war hammer</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneSpears">
+        <defName>RF_OnyxSpear</defName>
+        <label>onyx spear</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneWarHammers/RF_OnyxWarHammer</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneSpears/RF_OnyxSpear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -285,6 +335,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Onyx</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
 </Defs>

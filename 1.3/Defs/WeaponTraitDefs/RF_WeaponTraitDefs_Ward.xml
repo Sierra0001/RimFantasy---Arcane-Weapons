@@ -5,11 +5,28 @@
 		<defName>RF_MinorWard</defName>
 		<label>minor ward</label>
 		<description>Enchanted with lower battle magic, this weapon sometimes negates incoming attacks against its wielder.</description>
+    <exclusionTags>
+			<li>RF_MinorParry</li>
+			<li>RF_Parry</li>
+			<li>RF_MajorParry</li>
+      <li>RF_MinorDeflect</li>
+	    <li>RF_Deflect</li>
+	    <li>RF_MajorDeflect</li>
+      <li>RF_MinorWard</li>
+	    <li>RF_Ward</li>
+	    <li>RF_MajorWard</li>
+      <li>RF_MinorWarriorsShield</li>
+	    <li>RF_WarriorsShield</li>
+	    <li>RF_MajorWarriorsShield</li>
+	    <li>RF_MinorMagiciansShield</li>
+		  <li>RF_MagiciansShield</li>
+		  <li>RF_MajorMagiciansShield</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<deflectMeleeChance>0.20</deflectMeleeChance>
 		<deflectRangeChance>0.20</deflectRangeChance>
 		<fleckDefOnDeflect>RF_Fleck_BlastDiamond_Round</fleckDefOnDeflect>
-		<commonality>1.25</commonality>
+		<commonality>3</commonality>
 		<marketValueOffset>200</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
 
@@ -17,11 +34,28 @@
 		<defName>RF_Ward</defName>
 		<label>ward</label>
 		<description>Enchanted with lower battle magic, this weapon sometimes shields the user from attacks.</description>
+    <exclusionTags>
+			<li>RF_MinorParry</li>
+			<li>RF_Parry</li>
+			<li>RF_MajorParry</li>
+      <li>RF_MinorDeflect</li>
+	    <li>RF_Deflect</li>
+	    <li>RF_MajorDeflect</li>
+      <li>RF_MinorWard</li>
+	    <li>RF_Ward</li>
+	    <li>RF_MajorWard</li>
+      <li>RF_MinorWarriorsShield</li>
+	    <li>RF_WarriorsShield</li>
+	    <li>RF_MajorWarriorsShield</li>
+	    <li>RF_MinorMagiciansShield</li>
+		  <li>RF_MagiciansShield</li>
+		  <li>RF_MajorMagiciansShield</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<deflectMeleeChance>0.25</deflectMeleeChance>
 		<deflectRangeChance>0.25</deflectRangeChance>
 		<fleckDefOnDeflect>RF_Fleck_BlastDiamond_Round</fleckDefOnDeflect>
-		<commonality>1</commonality>
+		<commonality>2</commonality>
 		<marketValueOffset>400</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
 
@@ -29,11 +63,28 @@
 		<defName>RF_MajorWard</defName>
 		<label>major ward</label>
 		<description>Enchanted with higher battle magic, this weapon occasionally negates incoming attacks against its wielder.</description>
+    <exclusionTags>
+			<li>RF_MinorParry</li>
+			<li>RF_Parry</li>
+			<li>RF_MajorParry</li>
+      <li>RF_MinorDeflect</li>
+	    <li>RF_Deflect</li>
+	    <li>RF_MajorDeflect</li>
+      <li>RF_MinorWard</li>
+	    <li>RF_Ward</li>
+	    <li>RF_MajorWard</li>
+      <li>RF_MinorWarriorsShield</li>
+	    <li>RF_WarriorsShield</li>
+	    <li>RF_MajorWarriorsShield</li>
+	    <li>RF_MinorMagiciansShield</li>
+		  <li>RF_MagiciansShield</li>
+		  <li>RF_MajorMagiciansShield</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<deflectMeleeChance>0.35</deflectMeleeChance>
 		<deflectRangeChance>0.35</deflectRangeChance>
 		<fleckDefOnDeflect>RF_Fleck_BlastDiamond_Round</fleckDefOnDeflect>
-		<commonality>0.25</commonality>
+		<commonality>1</commonality>
 		<marketValueOffset>600</marketValueOffset>
 	</RimFantasy.ArcaneWeaponTraitDef>
 

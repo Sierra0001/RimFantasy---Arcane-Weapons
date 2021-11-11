@@ -12,7 +12,7 @@
         <disappearsAfterTicks>45000~120000</disappearsAfterTicks>
       </li>-->
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1.75</severityPerDay>
+        <severityPerDay>-2.25</severityPerDay>
       </li>
     </comps>
 	  <modExtensions>
@@ -33,7 +33,7 @@
         <disappearsAfterTicks>45000~120000</disappearsAfterTicks>
       </li>-->
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1.75</severityPerDay>
+        <severityPerDay>-2.25</severityPerDay>
       </li>
     </comps>
     <modExtensions>
@@ -54,7 +54,7 @@
         <disappearsAfterTicks>45000~120000</disappearsAfterTicks>
       </li>-->
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1.75</severityPerDay>
+        <severityPerDay>-2.25</severityPerDay>
       </li>
     </comps>
   <modExtensions>

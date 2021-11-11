@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--========== Diamond Staff ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
+        <defName>RF_DiamondStaff</defName>
+        <label>diamond staff</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_DiamondStaff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Diamond>75</RF_Diamond>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Diamond</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Diamond</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicBolt_Staff_Diamond</defaultProjectile>
+              <warmupTime>1.8</warmupTime>
+              <range>27</range>
+              <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+              <burstShotCount>5</burstShotCount>
+              <soundCast>Shot_ChargeRifle</soundCast>
+            </li>
+        </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Diamond</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Ruby Staff ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
+        <defName>RF_RubyStaff</defName>
+        <label>ruby staff</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_RubyStaff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Ruby>75</RF_Ruby>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Ruby</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Ruby</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicBolt_Staff_Ruby</defaultProjectile>
+              <warmupTime>1.8</warmupTime>
+              <range>27</range>
+              <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+              <burstShotCount>5</burstShotCount>
+              <soundCast>Shot_ChargeRifle</soundCast>
+            </li>
+        </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Ruby</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Carnelian Staff ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
+        <defName>RF_CarnelianStaff</defName>
+        <label>carnelian staff</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_CarnelianStaff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Carnelian>75</RF_Carnelian>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Carnelian</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Carnelian</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicBolt_Staff_Carnelian</defaultProjectile>
+              <warmupTime>1.8</warmupTime>
+              <range>27</range>
+              <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+              <burstShotCount>5</burstShotCount>
+              <soundCast>Shot_ChargeRifle</soundCast>
+            </li>
+        </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Carnelian</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Citrine Staff ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
+        <defName>RF_CitrineStaff</defName>
+        <label>citrine staff</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_CitrineStaff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Citrine>75</RF_Citrine>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Citrine</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Citrine</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicBolt_Staff_Citrine</defaultProjectile>
+              <warmupTime>1.8</warmupTime>
+              <range>27</range>
+              <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+              <burstShotCount>5</burstShotCount>
+              <soundCast>Shot_ChargeRifle</soundCast>
+            </li>
+        </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Citrine</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Peridot Staff ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
+        <defName>RF_PeridotStaff</defName>
+        <label>peridot staff</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_PeridotStaff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Peridot>75</RF_Peridot>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Peridot</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Peridot</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicBolt_Staff_Peridot</defaultProjectile>
+              <warmupTime>1.8</warmupTime>
+              <range>27</range>
+              <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+              <burstShotCount>5</burstShotCount>
+              <soundCast>Shot_ChargeRifle</soundCast>
+            </li>
+        </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Peridot</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Emerald Staff ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
+        <defName>RF_EmeraldStaff</defName>
+        <label>emerald staff</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_EmeraldStaff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Emerald>75</RF_Emerald>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Emerald</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Emerald</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicBolt_Staff_Emerald</defaultProjectile>
+              <warmupTime>1.8</warmupTime>
+              <range>27</range>
+              <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+              <burstShotCount>5</burstShotCount>
+              <soundCast>Shot_ChargeRifle</soundCast>
+            </li>
+        </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Emerald</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Aquamarine Staff ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
+        <defName>RF_AquamarineStaff</defName>
+        <label>aquamarine staff</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_AquamarineStaff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Aquamarine>75</RF_Aquamarine>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Aquamarine</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Aquamarine</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicBolt_Staff_Aquamarine</defaultProjectile>
+              <warmupTime>1.8</warmupTime>
+              <range>27</range>
+              <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+              <burstShotCount>5</burstShotCount>
+              <soundCast>Shot_ChargeRifle</soundCast>
+            </li>
+        </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Aquamarine</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Sapphire Staff ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
+        <defName>RF_SapphireStaff</defName>
+        <label>sapphire staff</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_SapphireStaff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Sapphire>75</RF_Sapphire>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Sapphire</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Sapphire</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicBolt_Staff_Sapphire</defaultProjectile>
+              <warmupTime>1.8</warmupTime>
+              <range>27</range>
+              <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+              <burstShotCount>5</burstShotCount>
+              <soundCast>Shot_ChargeRifle</soundCast>
+            </li>
+        </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Sapphire</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Amethyst Staff ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
+        <defName>RF_AmethystStaff</defName>
+        <label>amethyst staff</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_AmethystStaff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Amethyst>75</RF_Amethyst>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Amethyst</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Amethyst</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicBolt_Staff_Amethyst</defaultProjectile>
+              <warmupTime>1.8</warmupTime>
+              <range>27</range>
+              <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+              <burstShotCount>5</burstShotCount>
+              <soundCast>Shot_ChargeRifle</soundCast>
+            </li>
+        </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Amethyst</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Kunzite Staff ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
+        <defName>RF_KunziteStaff</defName>
+        <label>kunzite staff</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_KunziteStaff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Kunzite>75</RF_Kunzite>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Kunzite</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Kunzite</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicBolt_Staff_Kunzite</defaultProjectile>
+              <warmupTime>1.8</warmupTime>
+              <range>27</range>
+              <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+              <burstShotCount>5</burstShotCount>
+              <soundCast>Shot_ChargeRifle</soundCast>
+            </li>
+        </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Kunzite</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Onyx Staff ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneStaves">
+        <defName>RF_OnyxStaff</defName>
+        <label>onyx staff</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_GemstoneStaves/RF_OnyxStaff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Onyx>75</RF_Onyx>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Onyx</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Onyx</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>RF_MagicBolt_Staff_Onyx</defaultProjectile>
+              <warmupTime>1.8</warmupTime>
+              <range>27</range>
+              <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+              <burstShotCount>5</burstShotCount>
+              <soundCast>Shot_ChargeRifle</soundCast>
+            </li>
+        </verbs>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Onyx</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

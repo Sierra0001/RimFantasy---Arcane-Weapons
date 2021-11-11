@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!--========== Diamond Battle Axe ==========-->
+    <!--========== Diamond Longsword ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
-        <defName>RF_DiamondBattleAxe</defName>
-        <label>diamond battle axe</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_DiamondLongsword</defName>
+        <label>diamond longsword</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_DiamondBattleAxe</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_DiamondLongsword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -25,15 +25,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Diamond</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Ruby Battle Axe ==========-->
+    <!--========== Ruby Longsword ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
-        <defName>RF_RubyBattleAxe</defName>
-        <label>ruby battle axe</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_RubyLongsword</defName>
+        <label>ruby longsword</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_RubyBattleAxe</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_RubyLongsword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -51,15 +56,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Ruby</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Carnelian Battle Axe ==========-->
+    <!--========== Carnelian Longsword ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
-        <defName>RF_CarnelianBattleAxe</defName>
-        <label>carnelian battle axe</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_CarnelianLongsword</defName>
+        <label>carnelian longsword</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_CarnelianBattleAxe</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_CarnelianLongsword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -77,15 +87,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Carnelian</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Citrine Battle Axe ==========-->
+    <!--========== Citrine Longsword ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
-        <defName>RF_CitrineBattleAxe</defName>
-        <label>citrine battle axe</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_CitrineLongsword</defName>
+        <label>citrine longsword</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_CitrineBattleAxe</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_CitrineLongsword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -103,15 +118,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Citrine</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Peridot Battle Axe ==========-->
+    <!--========== Peridot Longsword ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
-        <defName>RF_PeridotBattleAxe</defName>
-        <label>peridot battle axe</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_PeridotLongsword</defName>
+        <label>peridot longsword</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_PeridotBattleAxe</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_PeridotLongsword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -129,15 +149,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Peridot</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Emerald Battle Axe ==========-->
+    <!--========== Emerald Longsword ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
-        <defName>RF_EmeraldBattleAxe</defName>
-        <label>emerald battle axe</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_EmeraldLongsword</defName>
+        <label>emerald longsword</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_EmeraldBattleAxe</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_EmeraldLongsword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -155,20 +180,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
-	<modExtensions>
-		<li Class="RimFantasy.RimFantasyExtension">
-			<stuffKey>Emerald</stuffKey>
-		</li>
-	</modExtensions>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Emerald</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Aquamarine Battle Axe ==========-->
+    <!--========== Aquamarine Longsword ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
-        <defName>RF_AquamarineBattleAxe</defName>
-        <label>aquamarine battle axe</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_AquamarineLongsword</defName>
+        <label>aquamarine longsword</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_AquamarineBattleAxe</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_AquamarineLongsword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -186,15 +211,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Aquamarine</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Sapphire Battle Axe ==========-->
+    <!--========== Sapphire Longsword ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
-        <defName>RF_SapphireBattleAxe</defName>
-        <label>sapphire battle axe</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_SapphireLongsword</defName>
+        <label>sapphire longsword</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_SapphireBattleAxe</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_SapphireLongsword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -212,15 +242,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Sapphire</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Amethyst Battle Axe ==========-->
+    <!--========== Amethyst Longsword ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
-        <defName>RF_AmethystBattleAxe</defName>
-        <label>amethyst battle axe</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_AmethystLongsword</defName>
+        <label>amethyst longsword</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_AmethystBattleAxe</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_AmethystLongsword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -238,15 +273,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Amethyst</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Kunzite Battle Axe ==========-->
+    <!--========== Kunzite Longsword ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
-        <defName>RF_KunziteBattleAxe</defName>
-        <label>kunzite battle axe</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_KunziteLongsword</defName>
+        <label>kunzite longsword</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_KunziteBattleAxe</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_KunziteLongsword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -264,15 +304,20 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Kunzite</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
-    <!--========== Onyx Battle Axe ==========-->
+    <!--========== Onyx Longsword ==========-->
 
-    <ThingDef ParentName="RF_BaseWeapon_ArcaneBattleAxes">
-        <defName>RF_OnyxBattleAxe</defName>
-        <label>onyx battle axe</label>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneLongswords">
+        <defName>RF_OnyxLongsword</defName>
+        <label>onyx longsword</label>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneBattleAxes/RF_OnyxBattleAxe</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneLongswords/RF_OnyxLongsword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
@@ -290,6 +335,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Onyx</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
 </Defs>

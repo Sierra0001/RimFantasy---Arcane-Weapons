@@ -5,10 +5,15 @@
 		<defName>RF_MinorSlam</defName>
 		<label>minor slam</label>
 		<description>Enchanted with lower battle magic, this weapon can sometimes unleash a weak wave of magical energy around the target and knock them back.</description>
+    <exclusionTags>
+			<li>RF_MinorSlam</li>
+			<li>RF_Slam</li>
+			<li>RF_MajorSlam</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Multiple">
-				<effectChance>1</effectChance>
+				<effectChance>0.20</effectChance>
 				<weaponEffects>
 					<li Class="RimFantasy.WeaponEffect_Slam">
 						<baseDamageValue>2</baseDamageValue>
@@ -33,10 +38,15 @@
 		<defName>RF_Slam</defName>
 		<label>slam</label>
 		<description>Enchanted with battle magic, this weapon can sometimes unleash a wave of magical energy around the target and knock them back.</description>
+    <exclusionTags>
+			<li>RF_MinorSlam</li>
+			<li>RF_Slam</li>
+			<li>RF_MajorSlam</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Multiple">
-				<effectChance>1</effectChance>
+				<effectChance>0.22</effectChance>
 				<weaponEffects>
 					<li Class="RimFantasy.WeaponEffect_Slam">
 						<baseDamageValue>4</baseDamageValue>
@@ -61,10 +71,15 @@
 		<defName>RF_MajorSlam</defName>
 		<label>major slam</label>
 		<description>Enchanted with higher battle magic, this weapon can sometimes unleash a powerful wave of magical energy around the target and knock them back.</description>
+    <exclusionTags>
+			<li>RF_MinorSlam</li>
+			<li>RF_Slam</li>
+			<li>RF_MajorSlam</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Multiple">
-				<effectChance>1</effectChance>
+				<effectChance>0.25</effectChance>
 				<weaponEffects>
 					<li Class="RimFantasy.WeaponEffect_Slam">
 						<baseDamageValue>6</baseDamageValue>

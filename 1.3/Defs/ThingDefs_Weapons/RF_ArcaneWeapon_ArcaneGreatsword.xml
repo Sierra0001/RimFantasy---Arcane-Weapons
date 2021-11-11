@@ -25,6 +25,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Diamond</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
     <!--========== Ruby Greatsword ==========-->
@@ -51,6 +56,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Ruby</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
     <!--========== Carnelian Greatsword ==========-->
@@ -77,6 +87,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Carnelian</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
     <!--========== Citrine Greatsword ==========-->
@@ -103,6 +118,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Citrine</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
     <!--========== Peridot Greatsword ==========-->
@@ -129,6 +149,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Peridot</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
     <!--========== Emerald Greatsword ==========-->
@@ -155,6 +180,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Emerald</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
     <!--========== Aquamarine Greatsword ==========-->
@@ -181,6 +211,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Aquamarine</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
     <!--========== Sapphire Greatsword ==========-->
@@ -207,6 +242,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Sapphire</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
     <!--========== Amethyst Greatsword ==========-->
@@ -233,6 +273,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Amethyst</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
     <!--========== Kunzite Greatsword ==========-->
@@ -259,6 +304,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Kunzite</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
     <!--========== Onyx Greatsword ==========-->
@@ -285,6 +335,11 @@
             <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
           </li>
         </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Onyx</stuffKey>
+          </li>
+        </modExtensions>
     </ThingDef>
 
 </Defs>

@@ -9,6 +9,11 @@
 	</supportedVersions>
 	<modDependencies>
 		<li>
+			<packageId>ludeon.rimworld.royalty</packageId>
+	 		<displayName>Royalty [Official DLC]</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1149640/RimWorld__Royalty/</steamWorkshopUrl>
+		</li>
+		<li>
 			<packageId>Sierra.RF.Gemstones</packageId>
 	 		<displayName>RimFantasy - Gemstones</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2630669656</steamWorkshopUrl>
@@ -34,7 +39,7 @@ Expensive to make as they are difficult to craft, many gemstones are spent durin
 [b]Features:[/b]
 [list]
 [*]8 Arcane weapons (11 variants)
-[*]14 Weapon traits (3 variants each)
+[*]15 Weapon traits (3 variants each)
 [*]2 Researches
 [/list]
 
@@ -71,8 +76,9 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 [h1]Credits:[/h1]
 [list]
-[*]SirLalaPyon for his amazing, high quality vanilla styled art.
+[*]SirLalaPyon for the preview art.
 [*]Steve o.O for all the smexy weapon textures.
+Taranchuk for his C# code magic, without which this mod would not exist.
 [/list]
 
 

@@ -5,6 +5,11 @@
 		<defName>RF_MinorFreeze</defName>
 		<label>minor freeze</label>
 		<description>Enchanted with lower ice magic, this weapon can sometimes unleash a weak wave of magical energy and may cause hypothermia.</description>
+    <exclusionTags>
+			<li>RF_MinorFreeze</li>
+			<li>RF_Freeze</li>
+			<li>RF_MajorFreeze</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Multiple">
@@ -30,6 +35,11 @@
 		<defName>RF_Freeze</defName>
 		<label>freeze</label>
 		<description>Enchanted with ice magic, this weapon can sometimes unleash a wave of magical energy and may cause hypothermia.</description>
+    <exclusionTags>
+			<li>RF_MinorFreeze</li>
+			<li>RF_Freeze</li>
+			<li>RF_MajorFreeze</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Multiple">
@@ -55,6 +65,11 @@
 		<defName>RF_MajorFreeze</defName>
 		<label>major freeze</label>
 		<description>Enchanted with higher ice magic, this weapon can sometimes unleash a powerful wave of magical energy and may cause hypothermia.</description>
+    <exclusionTags>
+			<li>RF_MinorFreeze</li>
+			<li>RF_Freeze</li>
+			<li>RF_MajorFreeze</li>
+    </exclusionTags>
 		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
 		<weaponEffects>
 			<li Class="RimFantasy.WeaponEffect_Multiple">

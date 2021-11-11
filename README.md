@@ -2,7 +2,7 @@
 
 Some use magical gemstones to warm their homes.
 Some use magical gemstones to light their paths.
-some use magical gemstones to craft deadly weapons.
+Some use magical gemstones to craft deadly weapons.
 
 Expensive to make as they are difficult to craft, many gemstones are spent during the refinement and enchantment process. The resulting weapons are infused with powerful magic and, in the hands of the right wielder can make them neigh unstoppable.
 
@@ -26,7 +26,7 @@ Balance feedbacks are welcomed, please provide context when doing so.
 ### Links
 
 - [Current Version](https://github.com/Sierra0001/RimFantasy---Arcane-Weapons/releases/tag/v1.0)
-- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890)
+- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2651522590)
 - [GitHub](https://github.com/Sierra0001/RimFantasy---Arcane-Weapons)
 
 ### Credits

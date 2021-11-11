@@ -15,6 +15,16 @@
             <RF_Diamond>75</RF_Diamond>
         </costList>
         <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(211,211,211)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
           <li Class="CompProperties_Explosive">
             <wickTicks>90</wickTicks>
             <explosiveRadius>2</explosiveRadius>
@@ -46,6 +56,16 @@
             <RF_Ruby>75</RF_Ruby>
         </costList>
         <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(189,25,60)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
           <li Class="CompProperties_Explosive">
             <wickTicks>90</wickTicks>
             <explosiveRadius>2</explosiveRadius>
@@ -77,6 +97,16 @@
             <RF_Carnelian>75</RF_Carnelian>
         </costList>
         <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(255,127,80)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
           <li Class="CompProperties_Explosive">
             <wickTicks>90</wickTicks>
             <explosiveRadius>2</explosiveRadius>
@@ -108,6 +138,16 @@
             <RF_Citrine>75</RF_Citrine>
         </costList>
         <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(201,193,34)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
           <li Class="CompProperties_Explosive">
             <wickTicks>90</wickTicks>
             <explosiveRadius>2</explosiveRadius>
@@ -139,6 +179,16 @@
             <RF_Peridot>75</RF_Peridot>
         </costList>
         <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(150,225,90)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
           <li Class="CompProperties_Explosive">
             <wickTicks>90</wickTicks>
             <explosiveRadius>2</explosiveRadius>
@@ -170,6 +220,16 @@
             <RF_Emerald>75</RF_Emerald>
         </costList>
         <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(50,150,50)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
           <li Class="CompProperties_Explosive">
             <wickTicks>90</wickTicks>
             <explosiveRadius>2</explosiveRadius>
@@ -201,6 +261,16 @@
             <RF_Aquamarine>75</RF_Aquamarine>
         </costList>
         <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(51,255,255)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
           <li Class="CompProperties_Explosive">
             <wickTicks>90</wickTicks>
             <explosiveRadius>2</explosiveRadius>
@@ -232,6 +302,16 @@
             <RF_Sapphire>75</RF_Sapphire>
         </costList>
         <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(0,125,225)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
           <li Class="CompProperties_Explosive">
             <wickTicks>90</wickTicks>
             <explosiveRadius>2</explosiveRadius>
@@ -263,6 +343,16 @@
             <RF_Amethyst>75</RF_Amethyst>
         </costList>
         <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(115,64,166)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
           <li Class="CompProperties_Explosive">
             <wickTicks>90</wickTicks>
             <explosiveRadius>2</explosiveRadius>
@@ -294,6 +384,16 @@
             <RF_Kunzite>75</RF_Kunzite>
         </costList>
         <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(235,180,237)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
           <li Class="CompProperties_Explosive">
             <wickTicks>90</wickTicks>
             <explosiveRadius>2</explosiveRadius>
@@ -325,6 +425,16 @@
             <RF_Onyx>75</RF_Onyx>
         </costList>
         <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(50,60,60)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
           <li Class="CompProperties_Explosive">
             <wickTicks>90</wickTicks>
             <explosiveRadius>2</explosiveRadius>

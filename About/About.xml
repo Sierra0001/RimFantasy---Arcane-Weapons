@@ -26,7 +26,7 @@
 		<li>Sierra.RF.Gemstones</li>
 	</loadAfter>
 	<description>
-[h1]Mod Version: v1.0[/h1]
+[h1]Mod Version: v1.0.1[/h1]
 
 
 Some use magical gemstones to warm their homes.
@@ -86,10 +86,9 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 
 [h1]Latest Changes:[/h1]
-[b]v1.0[/b]
+[b]v1.0.1[/b]
 [list]
-[*][RimWorld 1.3] RimWorld 1.3 Ready.
-[*][Release] Initial release.
+[*][Fix] Crafted arcane weapons will now respect the crafter's crafting level when determining quality.
 [/list]
 	</description>
 </ModMetaData>

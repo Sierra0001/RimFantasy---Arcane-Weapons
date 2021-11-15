@@ -25,7 +25,7 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimFantasy---Arcane-Weapons/releases/tag/v1.0)
+- [Current Version](https://github.com/Sierra0001/RimFantasy---Arcane-Weapons/releases/tag/v1.0.1)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2651522590)
 - [GitHub](https://github.com/Sierra0001/RimFantasy---Arcane-Weapons)
 
@@ -37,5 +37,4 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Latest Changes
 
-- [RimWorld 1.3] RimWorld 1.3 Ready.
-- [Release] Initial release.
+- [Fix] Crafted arcane weapons will now respect the crafter's crafting level when determining quality.

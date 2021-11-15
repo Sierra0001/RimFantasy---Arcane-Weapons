@@ -104,13 +104,18 @@
 			<li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
 		<recipeMaker>
-	      <recipeUsers>
-	        <li>RF_ArcaneCraftingBench</li>
-	      </recipeUsers>
-		<!--<researchPrerequisite>RF_ArcaneWeapons</researchPrerequisite>-->
-				<skillRequirements>
-					<Crafting>8</Crafting>
-				</skillRequirements>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+		  <recipeUsers>
+		   <li>RF_ArcaneCraftingBench</li>
+		  </recipeUsers>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+			<researchPrerequisite>RF_ArcaneWeapons</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
 		</recipeMaker>
 	</ThingDef>
 

@@ -25,7 +25,7 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimFantasy---Arcane-Weapons/releases/tag/v1.0.1)
+- [Current Version](https://github.com/Sierra0001/RimFantasy---Arcane-Weapons/releases/tag/v1.1)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2651522590)
 - [GitHub](https://github.com/Sierra0001/RimFantasy---Arcane-Weapons)
 
@@ -34,7 +34,8 @@ Balance feedbacks are welcomed, please provide context when doing so.
 - Taranchuk for his C# code magic, without which this mod would not exist.
 - Steve o.O for all the smexy weapon textures.
 - SirLalaPyon for the preview art.
+- Mascot inspired and based on Geneforge by Spiderweb Software (Go play the series, it's great).
 
 ### Latest Changes
 
-- [Fix] Crafted arcane weapons will now respect the crafter's crafting level when determining quality.
+- [RimWorld 1.4] RimWorld 1.4 Ready.

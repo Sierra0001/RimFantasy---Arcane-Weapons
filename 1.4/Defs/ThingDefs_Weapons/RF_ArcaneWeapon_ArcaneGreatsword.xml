@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--========== Diamond Greatsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneGreatswords">
+        <defName>RF_DiamondGreatsword</defName>
+        <label>diamond greatsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneGreatswords/RF_DiamondGreatsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Diamond>75</RF_Diamond>
+        </costList>
+        <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(211,211,211)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Diamond</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Diamond</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Diamond</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Ruby Greatsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneGreatswords">
+        <defName>RF_RubyGreatsword</defName>
+        <label>ruby greatsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneGreatswords/RF_RubyGreatsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Ruby>75</RF_Ruby>
+        </costList>
+        <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(189,25,60)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Ruby</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Ruby</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Ruby</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Carnelian Greatsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneGreatswords">
+        <defName>RF_CarnelianGreatsword</defName>
+        <label>carnelian greatsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneGreatswords/RF_CarnelianGreatsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Carnelian>75</RF_Carnelian>
+        </costList>
+        <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(255,127,80)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Carnelian</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Carnelian</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Carnelian</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Citrine Greatsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneGreatswords">
+        <defName>RF_CitrineGreatsword</defName>
+        <label>citrine greatsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneGreatswords/RF_CitrineGreatsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Citrine>75</RF_Citrine>
+        </costList>
+        <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(201,193,34)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Citrine</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Citrine</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Citrine</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Peridot Greatsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneGreatswords">
+        <defName>RF_PeridotGreatsword</defName>
+        <label>peridot greatsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneGreatswords/RF_PeridotGreatsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Peridot>75</RF_Peridot>
+        </costList>
+        <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(150,225,90)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Peridot</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Peridot</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Peridot</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Emerald Greatsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneGreatswords">
+        <defName>RF_EmeraldGreatsword</defName>
+        <label>emerald greatsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneGreatswords/RF_EmeraldGreatsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Emerald>75</RF_Emerald>
+        </costList>
+        <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(50,150,50)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Emerald</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Emerald</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Emerald</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Aquamarine Greatsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneGreatswords">
+        <defName>RF_AquamarineGreatsword</defName>
+        <label>aquamarine greatsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneGreatswords/RF_AquamarineGreatsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Aquamarine>75</RF_Aquamarine>
+        </costList>
+        <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(51,255,255)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Aquamarine</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Aquamarine</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Aquamarine</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Sapphire Greatsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneGreatswords">
+        <defName>RF_SapphireGreatsword</defName>
+        <label>sapphire greatsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneGreatswords/RF_SapphireGreatsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Sapphire>75</RF_Sapphire>
+        </costList>
+        <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(0,125,225)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Sapphire</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Sapphire</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Sapphire</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Amethyst Greatsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneGreatswords">
+        <defName>RF_AmethystGreatsword</defName>
+        <label>amethyst greatsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneGreatswords/RF_AmethystGreatsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Amethyst>75</RF_Amethyst>
+        </costList>
+        <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(115,64,166)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Amethyst</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Amethyst</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Amethyst</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Kunzite Greatsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneGreatswords">
+        <defName>RF_KunziteGreatsword</defName>
+        <label>kunzite greatsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneGreatswords/RF_KunziteGreatsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Kunzite>75</RF_Kunzite>
+        </costList>
+        <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(235,180,237)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Kunzite</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Kunzite</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Kunzite</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--========== Onyx Greatsword ==========-->
+
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneGreatswords">
+        <defName>RF_OnyxGreatsword</defName>
+        <label>onyx greatsword</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/RF_GemstoneGreatswords/RF_OnyxGreatsword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <costList>
+            <RF_Onyx>75</RF_Onyx>
+        </costList>
+        <comps>
+          <li Class="RimFantasy.CompProperties_GlowerStuffable">
+            <glowRadius>1</glowRadius>
+            <glowColor>(50,60,60)</glowColor>
+            <glowWhileOnGround>true</glowWhileOnGround>
+            <glowWhileStockpiled>true</glowWhileStockpiled>
+            <glowWhileEquipped>true</glowWhileEquipped>
+            <glowRadiusEquipped>1</glowRadiusEquipped>
+            <glowWhileDrawn>true</glowWhileDrawn>
+            <glowRadiusDrawn>1</glowRadiusDrawn>
+          </li>
+          <li Class="CompProperties_Explosive">
+            <wickTicks>90</wickTicks>
+            <explosiveRadius>2</explosiveRadius>
+            <explosiveDamageType>RF_Flame_SmallSquareRF_Onyx</explosiveDamageType>
+            <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+            <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+            <postExplosionSpawnThingDef>RF_RubbleShardsRF_Onyx</postExplosionSpawnThingDef>
+            <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+          </li>
+        </comps>
+        <modExtensions>
+          <li Class="RimFantasy.RimFantasyExtension">
+            <stuffKey>Onyx</stuffKey>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>
